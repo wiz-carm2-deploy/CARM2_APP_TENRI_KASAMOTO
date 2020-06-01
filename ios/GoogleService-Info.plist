@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1059277386195-cg89la98k94s7cb9epnkr040regl62i1.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1059277386195-cg89la98k94s7cb9epnkr040regl62i1</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDfoYfK-_YU1qSSWyr7qX8HUhjj3j0rCp0</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1059277386195</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.kyoroman</string>
+	<key>PROJECT_ID</key>
+	<string>kyoroman</string>
+	<key>STORAGE_BUCKET</key>
+	<string>kyoroman.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1059277386195:ios:361e44822e038bfb7b3f26</string>
+	<key>DATABASE_URL</key>
+	<string>https://kyoroman.firebaseio.com</string>
+</dict>
+</plist>
