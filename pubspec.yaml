@@ -26,7 +26,8 @@ dependencies:
 
   # CARM2 base plugin
   carm2_base:
-    path: ../carm2_base/
+    git:
+      url: "https://github.com/chwiz143/CARM2_APP_BASE"
 
 dev_dependencies:
   flutter_test:

@@ -122,9 +122,11 @@ packages:
   carm2_base:
     dependency: "direct main"
     description:
-      path: "../carm2_base"
-      relative: true
-    source: path
+      path: "."
+      ref: HEAD
+      resolved-ref: "7d39beb4777c66d270896230c667e3ad9a27ea8c"
+      url: "https://github.com/chwiz143/CARM2_APP_BASE"
+    source: git
     version: "0.0.1"
   charcode:
     dependency: transitive
