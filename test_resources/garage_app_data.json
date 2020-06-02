@@ -1,0 +1,382 @@
+{
+    "id": 1,
+    "app_type": 1,
+    "initial_app_func_id": 1,
+    "name": "GARAGEアプリ",
+    "image": null,
+    "latest_app_version": null,
+    "check_app_version": null,
+    "initial_popups": [
+        5
+    ],
+    "app_store_setting": null,
+    "detections": [],
+    "app_funcs": [
+        {
+            "id": 1,
+            "func_id": 1,
+            "app_id": 1,
+            "name": "GARAGE トップ画面",
+            "screen_layout": {
+                "id": 2,
+                "has_header": false,
+                "header_background": "#2196F3FF",
+                "header_logo": null,
+                "has_footer": false,
+                "footer_background": "#2196F3FF",
+                "header_widgets": [],
+                "footer_widgets": [],
+                "main_widgets": {
+                    "text_widgets": [],
+                    "image_widgets": [],
+                    "movie_widgets": [],
+                    "button_widgets": [
+                        {
+                            "id": 2,
+                            "screen_layout_id": 2,
+                            "app_func_id": 3,
+                            "display_name": "Button",
+                            "display_order": 1,
+                            "width": 63,
+                            "height": 15,
+                            "left": 18,
+                            "top": 43,
+                            "background": "#2196F3FF",
+                            "font_color": "#FFFFFFFF",
+                            "content": "login page",
+                            "icon": null
+                        },
+                        {
+                            "id": 5,
+                            "screen_layout_id": 2,
+                            "app_func_id": 4,
+                            "display_name": "Button",
+                            "display_order": 2,
+                            "width": 60,
+                            "height": 15,
+                            "left": 21,
+                            "top": 63,
+                            "background": "#2196F3FF",
+                            "font_color": "#FFFFFFFF",
+                            "content": "Attribute Editor",
+                            "icon": null
+                        },
+                        {
+                            "id": 6,
+                            "screen_layout_id": 2,
+                            "app_func_id": 9,
+                            "display_name": "Button",
+                            "display_order": 4,
+                            "width": 60,
+                            "height": 15,
+                            "left": 20,
+                            "top": 11,
+                            "background": "#2196F3FF",
+                            "font_color": "#FFFFFFFF",
+                            "content": "Store",
+                            "icon": null
+                        },
+                        {
+                            "id": 8,
+                            "screen_layout_id": 2,
+                            "app_func_id": 10,
+                            "display_name": "Button",
+                            "display_order": 3,
+                            "width": 100,
+                            "height": 10,
+                            "left": 0,
+                            "top": 0,
+                            "background": "#C0382B",
+                            "font_color": "#FFFFFFFF",
+                            "content": "お知らせ配信一覧",
+                            "icon": null
+                        },
+                        {
+                            "id": 25,
+                            "screen_layout_id": 2,
+                            "app_func_id": 11,
+                            "display_name": "Button",
+                            "display_order": 5,
+                            "width": 60,
+                            "height": 15,
+                            "left": 18,
+                            "top": 82,
+                            "background": "#F2C511",
+                            "font_color": "#FFFFFFFF",
+                            "content": "会員証画面",
+                            "icon": null
+                        }
+                    ],
+                    "stamp_book_widgets": [],
+                    "stamp_rally_widgets": [],
+                    "point_book_widgets": []
+                }
+            }
+        },
+        {
+            "id": 2,
+            "func_id": 10,
+            "app_id": 1,
+            "name": "GARAGE 店舗選択画面",
+            "shop_infos": [
+                {
+                    "id": 1,
+                    "name": "GARAGE"
+                }
+            ],
+            "screen_layout": null
+        },
+        {
+            "id": 3,
+            "func_id": 8,
+            "app_id": 1,
+            "name": "GARAGE ログイン画面",
+            "can_sign_up": false,
+            "use_login_id_column": "2",
+            "expire_minute": null,
+            "screen_layout": {
+                "id": 1,
+                "has_header": false,
+                "header_background": "#2196F3FF",
+                "header_logo": null,
+                "has_footer": false,
+                "footer_background": "#2196F3FF",
+                "header_widgets": [],
+                "footer_widgets": [],
+                "main_widgets": {
+                    "text_widgets": [
+                        {
+                            "id": 1,
+                            "screen_layout_id": 1,
+                            "app_func_id": null,
+                            "display_name": "Text",
+                            "display_order": 1,
+                            "width": 0,
+                            "height": 0,
+                            "left": 43,
+                            "top": 33,
+                            "font_color": "#000000FF",
+                            "content": "アカウントID",
+                            "font_size": 16
+                        },
+                        {
+                            "id": 2,
+                            "screen_layout_id": 1,
+                            "app_func_id": null,
+                            "display_name": "Text",
+                            "display_order": 2,
+                            "width": 0,
+                            "height": 0,
+                            "left": 43,
+                            "top": 48,
+                            "font_color": "#000000FF",
+                            "content": "パスワード",
+                            "font_size": 16
+                        }
+                    ],
+                    "image_widgets": [],
+                    "movie_widgets": [],
+                    "button_widgets": [
+                        {
+                            "id": 1,
+                            "screen_layout_id": 1,
+                            "app_func_id": 1,
+                            "display_name": "Button",
+                            "display_order": 1,
+                            "width": 60,
+                            "height": 15,
+                            "left": 20,
+                            "top": 61,
+                            "background": "#000000FF",
+                            "font_color": "#FFFFFFFF",
+                            "content": "ログイン",
+                            "icon": null
+                        }
+                    ],
+                    "stamp_book_widgets": [],
+                    "stamp_rally_widgets": [],
+                    "point_book_widgets": []
+                }
+            }
+        },
+        {
+            "id": 4,
+            "func_id": 29,
+            "app_id": 1,
+            "name": "ユーザー情報",
+            "is_member_attr": true,
+            "screen_layout": null
+        },
+        {
+            "id": 5,
+            "func_id": 3,
+            "app_id": 1,
+            "name": "test",
+            "notification": {
+                "id": 3,
+                "title": "利用規約テスト",
+                "content": "利用規約テスト",
+                "image": "https://s3-ap-northeast-1.amazonaws.com/s3-carm2test-wiz-upload/petSLWSa7cHq1vtGa1sf6OXtalEPfg.png"
+            },
+            "is_push_notification_history": false,
+            "screen_layout": {
+                "id": 12,
+                "has_header": false,
+                "header_background": "#2196F3FF",
+                "header_logo": null,
+                "has_footer": false,
+                "footer_background": "#2196F3FF",
+                "header_widgets": [],
+                "footer_widgets": [],
+                "main_widgets": {
+                    "text_widgets": [],
+                    "image_widgets": [],
+                    "movie_widgets": [],
+                    "button_widgets": [
+                        {
+                            "id": 22,
+                            "screen_layout_id": 12,
+                            "app_func_id": null,
+                            "display_name": "Button",
+                            "display_order": 1,
+                            "width": 60,
+                            "height": 15,
+                            "left": 0,
+                            "top": 0,
+                            "background": "#C0382B",
+                            "font_color": "#FFFFFFFF",
+                            "content": "同意する",
+                            "icon": null
+                        },
+                        {
+                            "id": 24,
+                            "screen_layout_id": 12,
+                            "app_func_id": null,
+                            "display_name": "Button",
+                            "display_order": 2,
+                            "width": 60,
+                            "height": 15,
+                            "left": 0,
+                            "top": 32,
+                            "background": "#BDC3C8",
+                            "font_color": "#FFFFFFFF",
+                            "content": "同意しない",
+                            "icon": null
+                        }
+                    ],
+                    "stamp_book_widgets": [],
+                    "stamp_rally_widgets": [],
+                    "point_book_widgets": []
+                }
+            }
+        },
+        {
+            "id": 9,
+            "func_id": 8,
+            "app_id": 1,
+            "name": "GARAGE ログイン画面 --> 店舗リスト",
+            "can_sign_up": false,
+            "use_login_id_column": "2",
+            "expire_minute": null,
+            "screen_layout": {
+                "id": 4,
+                "has_header": false,
+                "header_background": "#2196F3FF",
+                "header_logo": null,
+                "has_footer": false,
+                "footer_background": "#2196F3FF",
+                "header_widgets": [],
+                "footer_widgets": [],
+                "main_widgets": {
+                    "text_widgets": [
+                        {
+                            "id": 3,
+                            "screen_layout_id": 4,
+                            "app_func_id": null,
+                            "display_name": "Text",
+                            "display_order": 1,
+                            "width": 0,
+                            "height": 0,
+                            "left": 43,
+                            "top": 34,
+                            "font_color": "#000000FF",
+                            "content": "アカウントID",
+                            "font_size": 16
+                        },
+                        {
+                            "id": 4,
+                            "screen_layout_id": 4,
+                            "app_func_id": null,
+                            "display_name": "Text",
+                            "display_order": 2,
+                            "width": 0,
+                            "height": 0,
+                            "left": 43,
+                            "top": 48,
+                            "font_color": "#000000FF",
+                            "content": "パスワード",
+                            "font_size": 16
+                        }
+                    ],
+                    "image_widgets": [],
+                    "movie_widgets": [],
+                    "button_widgets": [
+                        {
+                            "id": 7,
+                            "screen_layout_id": 4,
+                            "app_func_id": 2,
+                            "display_name": "Button",
+                            "display_order": 3,
+                            "width": 60,
+                            "height": 15,
+                            "left": 20,
+                            "top": 59,
+                            "background": "#222F3D",
+                            "font_color": "#FFFFFFFF",
+                            "content": "ログイン",
+                            "icon": null
+                        }
+                    ],
+                    "stamp_book_widgets": [],
+                    "stamp_rally_widgets": [],
+                    "point_book_widgets": []
+                }
+            }
+        },
+        {
+            "id": 10,
+            "func_id": 3,
+            "app_id": 1,
+            "name": "test2",
+            "notification": null,
+            "is_push_notification_history": true,
+            "screen_layout": {
+                "id": 13,
+                "has_header": true,
+                "header_background": "#ffffff",
+                "header_logo": "https://s3-ap-northeast-1.amazonaws.com/s3-carm2test-wiz-upload/aehQ6BtdItwf6nRd6Ymrx403hwnAW6.png",
+                "has_footer": false,
+                "footer_background": "#2196F3FF",
+                "header_widgets": [],
+                "footer_widgets": [],
+                "main_widgets": {
+                    "text_widgets": [],
+                    "image_widgets": [],
+                    "movie_widgets": [],
+                    "button_widgets": [],
+                    "stamp_book_widgets": [],
+                    "stamp_rally_widgets": [],
+                    "point_book_widgets": []
+                }
+            }
+        },
+        {
+            "id": 11,
+            "func_id": 30,
+            "app_id": 1,
+            "name": "会員証",
+            "is_display_qr": true,
+            "screen_layout": null
+        }
+    ]
+}

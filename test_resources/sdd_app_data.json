@@ -1,0 +1,1183 @@
+{
+    "id": 2,
+    "app_type": 1,
+    "initial_app_func_id": 2,
+    "name": "SDD",
+    "image": "https://s3-ap-northeast-1.amazonaws.com/s3-sdd-app/QYfEqSUMZZWVXmOxyNBIr1kup7sooa.png",
+    "latest_app_version": "1.0.0",
+    "check_app_version": "1.0.0",
+    "app_store_setting": {
+        "id": 1,
+        "android_icon": null,
+        "app_id": 2,
+        "appstore_url": "https://www.google.com",
+        "circular_android_icon_background": null,
+        "circular_android_icon_logo": null,
+        "google_play_store_url": "https://play.google.com/store/apps/details?id=jp.co.wiznet.carm.sdd",
+        "home_name": "SDD",
+        "ios_icon": null,
+        "is_display_tos": false,
+        "is_reset_webapp_server": false,
+        "is_auto_create_landing_page": false,
+        "personal_information_handling_window": null,
+        "privacy_policy": null,
+        "push_notification_icon": null,
+        "store_name": "SDD",
+        "tos": null
+    },
+    "detections": [
+        {
+            "id": 1,
+            "name": "ライブ動画_検知",
+            "app_id": 2,
+            "detection_conditions": [
+                {
+                    "id": 1,
+                    "detection_id": 1,
+                    "detection_pattern_id": 1,
+                    "valid_weekday": null,
+                    "from_valid_timezone": null,
+                    "to_valid_timezone": null,
+                    "longitude": null,
+                    "latitude": null,
+                    "range": null,
+                    "ar_target_id": 1
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "ムービー_検知",
+            "app_id": 2,
+            "detection_conditions": [
+                {
+                    "id": 3,
+                    "detection_id": 3,
+                    "detection_pattern_id": 1,
+                    "valid_weekday": null,
+                    "from_valid_timezone": null,
+                    "to_valid_timezone": null,
+                    "longitude": null,
+                    "latitude": null,
+                    "range": null,
+                    "ar_target_id": 3
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "ライブ動画_検知",
+            "app_id": 2,
+            "detection_conditions": [
+                {
+                    "id": 4,
+                    "detection_id": 4,
+                    "detection_pattern_id": 1,
+                    "valid_weekday": null,
+                    "from_valid_timezone": null,
+                    "to_valid_timezone": null,
+                    "longitude": null,
+                    "latitude": null,
+                    "range": null,
+                    "ar_target_id": 4
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "ライブ動画_検知",
+            "app_id": 2,
+            "detection_conditions": [
+                {
+                    "id": 5,
+                    "detection_id": 5,
+                    "detection_pattern_id": 1,
+                    "valid_weekday": null,
+                    "from_valid_timezone": null,
+                    "to_valid_timezone": null,
+                    "longitude": null,
+                    "latitude": null,
+                    "range": null,
+                    "ar_target_id": 5
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "ライブ動画_検知",
+            "app_id": 2,
+            "detection_conditions": [
+                {
+                    "id": 6,
+                    "detection_id": 6,
+                    "detection_pattern_id": 1,
+                    "valid_weekday": null,
+                    "from_valid_timezone": null,
+                    "to_valid_timezone": null,
+                    "longitude": null,
+                    "latitude": null,
+                    "range": null,
+                    "ar_target_id": 6
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "name": "ライブ動画_検知",
+            "app_id": 2,
+            "detection_conditions": [
+                {
+                    "id": 7,
+                    "detection_id": 7,
+                    "detection_pattern_id": 1,
+                    "valid_weekday": null,
+                    "from_valid_timezone": null,
+                    "to_valid_timezone": null,
+                    "longitude": null,
+                    "latitude": null,
+                    "range": null,
+                    "ar_target_id": 7
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "name": "ウイングハート_検知",
+            "app_id": 2,
+            "detection_conditions": [
+                {
+                    "id": 8,
+                    "detection_id": 8,
+                    "detection_pattern_id": 1,
+                    "valid_weekday": null,
+                    "from_valid_timezone": null,
+                    "to_valid_timezone": null,
+                    "longitude": null,
+                    "latitude": null,
+                    "range": null,
+                    "ar_target_id": 8
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "name": "ウイングハート_検知",
+            "app_id": 2,
+            "detection_conditions": [
+                {
+                    "id": 14,
+                    "detection_id": 14,
+                    "detection_pattern_id": 1,
+                    "valid_weekday": null,
+                    "from_valid_timezone": null,
+                    "to_valid_timezone": null,
+                    "longitude": null,
+                    "latitude": null,
+                    "range": null,
+                    "ar_target_id": 14
+                }
+            ]
+        }
+    ],
+    "app_funcs": [
+        {
+            "id": 2,
+            "func_id": 4,
+            "app_id": 2,
+            "name": "SDDタイトルダミー",
+            "browser_type_id": 3,
+            "url": "http://www.co.jp",
+            "screen_layout": {
+                "id": 2,
+                "has_header": false,
+                "header_background": "#2196F3FF",
+                "header_logo": null,
+                "has_footer": true,
+                "footer_background": "#000000FF",
+                "header_widgets": [],
+                "footer_widgets": [
+                    {
+                        "screen_layout_id": 2,
+                        "app_func_id": 11,
+                        "display_name": "History",
+                        "display_order": 1,
+                        "font_color": "#FFFFFFFF",
+                        "icon": null,
+                        "image": "https://s3-ap-northeast-1.amazonaws.com/s3-sdd-app/oEs0o3PAihJhHtgTMCdjJBCPYiHfNf.png"
+                    },
+                    {
+                        "screen_layout_id": 2,
+                        "app_func_id": 12,
+                        "display_name": "Message",
+                        "display_order": 2,
+                        "font_color": "#FFFFFFFF",
+                        "icon": null,
+                        "image": "https://s3-ap-northeast-1.amazonaws.com/s3-sdd-app/sRt25FIMTleYO2yrm3TtqMzaTWpGF7.png"
+                    },
+                    {
+                        "screen_layout_id": 2,
+                        "app_func_id": 13,
+                        "display_name": "AR",
+                        "display_order": 3,
+                        "font_color": "#FFFFFFFF",
+                        "icon": null,
+                        "image": "https://s3-ap-northeast-1.amazonaws.com/s3-sdd-app/y8CMYTGn4ibDWIBHhPR6o5Kl2DgLo0.png"
+                    },
+                    {
+                        "screen_layout_id": 2,
+                        "app_func_id": 29,
+                        "display_name": "Pimory",
+                        "display_order": 4,
+                        "font_color": "#FFFFFFFF",
+                        "icon": null,
+                        "image": "https://s3-ap-northeast-1.amazonaws.com/s3-sdd-app/rOAJdifBWE5JrlHSdbTNUpdUSenG7U.jpeg"
+                    }
+                ],
+                "main_widgets": {
+                    "text_widgets": [],
+                    "image_widgets": [],
+                    "movie_widgets": [],
+                    "button_widgets": [],
+                    "stamp_book_widgets": [],
+                    "stamp_rally_widgets": []
+                }
+            }
+        },
+        {
+            "id": 3,
+            "func_id": 2,
+            "app_id": 2,
+            "name": "SDD2019",
+            "screen_layout": {
+                "id": 4,
+                "has_header": true,
+                "header_background": "#FFEB3BFF",
+                "header_logo": null,
+                "has_footer": false,
+                "footer_background": "#2196F3FF",
+                "header_widgets": [
+                    {
+                        "screen_layout_id": 4,
+                        "location": 1,
+                        "app_func_id": 1,
+                        "image": null,
+                        "icon": "0xe5c4"
+                    }
+                ],
+                "footer_widgets": [],
+                "main_widgets": {
+                    "text_widgets": [],
+                    "image_widgets": [],
+                    "movie_widgets": [],
+                    "button_widgets": [],
+                    "stamp_book_widgets": [],
+                    "stamp_rally_widgets": []
+                }
+            },
+            "ar_targets": [
+                {
+                    "id": 1,
+                    "app_func_ar_camera_id": 1,
+                    "ar_type": 1,
+                    "ar_target_recognition": null,
+                    "name": "ライブ動画",
+                    "marker_file_base_name": "sdd2019",
+                    "image": "https://s3-ap-northeast-1.amazonaws.com/s3-sdd-app/kMg94BrYDJ4ygW7uDVS51M3NDDs7yp.jpg",
+                    "zip": "https://s3-ap-northeast-1.amazonaws.com/s3-sdd-app/F/kMg94BrYDJ4ygW7uDVS51M3NDDs7yp.zip",
+                    "version": 3,
+                    "ar_contents": [
+                        {
+                            "id": 1,
+                            "ar_target_id": 1,
+                            "ar_content_type": 2,
+                            "name": "ムービー.mp4",
+                            "file": "https://s3-ap-northeast-1.amazonaws.com/s3-sdd-app/IfGiHJZGDXE1DyUJNxwFpZ3qbstXkp.mp4",
+                            "random_group_number": null,
+                            "random_setting": null,
+                            "content_size_x": 1,
+                            "content_size_y": 1,
+                            "content_size_z": 1,
+                            "content_position_x": 0,
+                            "content_position_y": 0,
+                            "content_position_z": 0,
+                            "content_rotation_x": 0,
+                            "content_rotation_y": 0,
+                            "content_rotation_z": 0,
+                            "version": 2,
+                            "ar_events": [
+                                {
+                                    "id": 1,
+                                    "ar_content_id": 1,
+                                    "ar_event_type": 15,
+                                    "ar_event_action_type": null,
+                                    "ar_event_ease_type": null,
+                                    "event_target_ar_content_id": null,
+                                    "name": "play",
+                                    "file": null,
+                                    "url": null,
+                                    "x": null,
+                                    "y": null,
+                                    "z": null,
+                                    "second": null,
+                                    "delay": null,
+                                    "is_loop": false,
+                                    "is_valid": true,
+                                    "from_valid_period": null,
+                                    "to_valid_period": null,
+                                    "option": null,
+                                    "version": 1,
+                                    "created_user_id": 1,
+                                    "updated_user_id": 1,
+                                    "memo": null,
+                                    "created_at": "2020-01-27 20:30:35",
+                                    "updated_at": "2020-01-27 20:30:35",
+                                    "deleted_at": null
+                                },
+                                {
+                                    "id": 2,
+                                    "ar_content_id": 1,
+                                    "ar_event_type": 16,
+                                    "ar_event_action_type": null,
+                                    "ar_event_ease_type": null,
+                                    "event_target_ar_content_id": null,
+                                    "name": "stop",
+                                    "file": null,
+                                    "url": null,
+                                    "x": null,
+                                    "y": null,
+                                    "z": null,
+                                    "second": null,
+                                    "delay": null,
+                                    "is_loop": false,
+                                    "is_valid": true,
+                                    "from_valid_period": null,
+                                    "to_valid_period": null,
+                                    "option": null,
+                                    "version": 1,
+                                    "created_user_id": 1,
+                                    "updated_user_id": 1,
+                                    "memo": null,
+                                    "created_at": "2020-01-27 20:30:46",
+                                    "updated_at": "2020-01-27 20:30:46",
+                                    "deleted_at": null
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "func_id": 2,
+            "app_id": 2,
+            "name": "SDD2018",
+            "screen_layout": {
+                "id": 5,
+                "has_header": true,
+                "header_background": "#FFEB3BFF",
+                "header_logo": null,
+                "has_footer": false,
+                "footer_background": "#2196F3FF",
+                "header_widgets": [
+                    {
+                        "screen_layout_id": 5,
+                        "location": 1,
+                        "app_func_id": 1,
+                        "image": null,
+                        "icon": "0xe5c4"
+                    }
+                ],
+                "footer_widgets": [],
+                "main_widgets": {
+                    "text_widgets": [],
+                    "image_widgets": [],
+                    "movie_widgets": [],
+                    "button_widgets": [],
+                    "stamp_book_widgets": [],
+                    "stamp_rally_widgets": []
+                }
+            },
+            "ar_targets": [
+                {
+                    "id": 3,
+                    "app_func_ar_camera_id": 4,
+                    "ar_type": 1,
+                    "ar_target_recognition": null,
+                    "name": "ライブ動画",
+                    "marker_file_base_name": "sdd2018",
+                    "image": "https://s3-ap-northeast-1.amazonaws.com/s3-sdd-app/5uLwsrDfCGWJCQEhr4LmlqAdbu5dYU.jpg",
+                    "zip": "https://s3-ap-northeast-1.amazonaws.com/s3-sdd-app/F/5uLwsrDfCGWJCQEhr4LmlqAdbu5dYU.zip",
+                    "version": 4,
+                    "ar_contents": [
+                        {
+                            "id": 2,
+                            "ar_target_id": 3,
+                            "ar_content_type": 2,
+                            "name": "ムービー.mp4",
+                            "file": "https://s3-ap-northeast-1.amazonaws.com/s3-sdd-app/d22x36xUjZ0uSL1jwwPBRZ0heZ26ty.mp4",
+                            "random_group_number": null,
+                            "random_setting": null,
+                            "content_size_x": 1,
+                            "content_size_y": 1,
+                            "content_size_z": 1,
+                            "content_position_x": 0,
+                            "content_position_y": 0,
+                            "content_position_z": 0,
+                            "content_rotation_x": 0,
+                            "content_rotation_y": 0,
+                            "content_rotation_z": 0,
+                            "version": 3,
+                            "ar_events": [
+                                {
+                                    "id": 5,
+                                    "ar_content_id": 2,
+                                    "ar_event_type": 15,
+                                    "ar_event_action_type": null,
+                                    "ar_event_ease_type": null,
+                                    "event_target_ar_content_id": null,
+                                    "name": "play",
+                                    "file": null,
+                                    "url": null,
+                                    "x": null,
+                                    "y": null,
+                                    "z": null,
+                                    "second": null,
+                                    "delay": null,
+                                    "is_loop": false,
+                                    "is_valid": true,
+                                    "from_valid_period": null,
+                                    "to_valid_period": null,
+                                    "option": null,
+                                    "version": 1,
+                                    "created_user_id": 1,
+                                    "updated_user_id": 1,
+                                    "memo": null,
+                                    "created_at": "2020-01-27 20:42:39",
+                                    "updated_at": "2020-01-27 20:42:39",
+                                    "deleted_at": null
+                                },
+                                {
+                                    "id": 6,
+                                    "ar_content_id": 2,
+                                    "ar_event_type": 16,
+                                    "ar_event_action_type": null,
+                                    "ar_event_ease_type": null,
+                                    "event_target_ar_content_id": null,
+                                    "name": "stop",
+                                    "file": null,
+                                    "url": null,
+                                    "x": null,
+                                    "y": null,
+                                    "z": null,
+                                    "second": null,
+                                    "delay": null,
+                                    "is_loop": false,
+                                    "is_valid": true,
+                                    "from_valid_period": null,
+                                    "to_valid_period": null,
+                                    "option": null,
+                                    "version": 1,
+                                    "created_user_id": 1,
+                                    "updated_user_id": 1,
+                                    "memo": null,
+                                    "created_at": "2020-01-27 20:44:16",
+                                    "updated_at": "2020-01-27 20:44:16",
+                                    "deleted_at": null
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "func_id": 2,
+            "app_id": 2,
+            "name": "SDD2017",
+            "screen_layout": {
+                "id": 6,
+                "has_header": true,
+                "header_background": "#FFEB3BFF",
+                "header_logo": null,
+                "has_footer": false,
+                "footer_background": "#2196F3FF",
+                "header_widgets": [
+                    {
+                        "screen_layout_id": 6,
+                        "location": 1,
+                        "app_func_id": 1,
+                        "image": null,
+                        "icon": "0xe5c4"
+                    }
+                ],
+                "footer_widgets": [],
+                "main_widgets": {
+                    "text_widgets": [],
+                    "image_widgets": [],
+                    "movie_widgets": [],
+                    "button_widgets": [],
+                    "stamp_book_widgets": [],
+                    "stamp_rally_widgets": []
+                }
+            },
+            "ar_targets": [
+                {
+                    "id": 4,
+                    "app_func_ar_camera_id": 5,
+                    "ar_type": 1,
+                    "ar_target_recognition": null,
+                    "name": "ライブ動画",
+                    "marker_file_base_name": "SDD2017",
+                    "image": "https://s3-ap-northeast-1.amazonaws.com/s3-sdd-app/NRAcspBCUczm8BII9C8pTGQpMc2Gay.jpg",
+                    "zip": "https://s3-ap-northeast-1.amazonaws.com/s3-sdd-app/F/NRAcspBCUczm8BII9C8pTGQpMc2Gay.zip",
+                    "version": 2,
+                    "ar_contents": [
+                        {
+                            "id": 3,
+                            "ar_target_id": 4,
+                            "ar_content_type": 2,
+                            "name": "ムービー.mp4",
+                            "file": "https://s3-ap-northeast-1.amazonaws.com/s3-sdd-app/2BO0qbLXXHUUY6tP6Nm9HBjBdLV38k.mp4",
+                            "random_group_number": null,
+                            "random_setting": null,
+                            "content_size_x": 1,
+                            "content_size_y": 1,
+                            "content_size_z": 1,
+                            "content_position_x": 0,
+                            "content_position_y": 0,
+                            "content_position_z": 0,
+                            "content_rotation_x": 0,
+                            "content_rotation_y": 0,
+                            "content_rotation_z": 0,
+                            "version": 2,
+                            "ar_events": [
+                                {
+                                    "id": 3,
+                                    "ar_content_id": 3,
+                                    "ar_event_type": 15,
+                                    "ar_event_action_type": null,
+                                    "ar_event_ease_type": null,
+                                    "event_target_ar_content_id": null,
+                                    "name": "play",
+                                    "file": null,
+                                    "url": null,
+                                    "x": null,
+                                    "y": null,
+                                    "z": null,
+                                    "second": null,
+                                    "delay": null,
+                                    "is_loop": false,
+                                    "is_valid": true,
+                                    "from_valid_period": null,
+                                    "to_valid_period": null,
+                                    "option": null,
+                                    "version": 1,
+                                    "created_user_id": 1,
+                                    "updated_user_id": 1,
+                                    "memo": null,
+                                    "created_at": "2020-01-27 20:41:18",
+                                    "updated_at": "2020-01-27 20:41:18",
+                                    "deleted_at": null
+                                },
+                                {
+                                    "id": 4,
+                                    "ar_content_id": 3,
+                                    "ar_event_type": 16,
+                                    "ar_event_action_type": null,
+                                    "ar_event_ease_type": null,
+                                    "event_target_ar_content_id": null,
+                                    "name": "stop",
+                                    "file": null,
+                                    "url": null,
+                                    "x": null,
+                                    "y": null,
+                                    "z": null,
+                                    "second": null,
+                                    "delay": null,
+                                    "is_loop": false,
+                                    "is_valid": true,
+                                    "from_valid_period": null,
+                                    "to_valid_period": null,
+                                    "option": null,
+                                    "version": 1,
+                                    "created_user_id": 1,
+                                    "updated_user_id": 1,
+                                    "memo": null,
+                                    "created_at": "2020-01-27 20:41:28",
+                                    "updated_at": "2020-01-27 20:41:28",
+                                    "deleted_at": null
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "func_id": 2,
+            "app_id": 2,
+            "name": "SDD2016",
+            "screen_layout": {
+                "id": 7,
+                "has_header": true,
+                "header_background": "#FFEB3BFF",
+                "header_logo": null,
+                "has_footer": false,
+                "footer_background": "#2196F3FF",
+                "header_widgets": [
+                    {
+                        "screen_layout_id": 7,
+                        "location": 1,
+                        "app_func_id": 1,
+                        "image": null,
+                        "icon": "0xe5c4"
+                    }
+                ],
+                "footer_widgets": [],
+                "main_widgets": {
+                    "text_widgets": [],
+                    "image_widgets": [],
+                    "movie_widgets": [],
+                    "button_widgets": [],
+                    "stamp_book_widgets": [],
+                    "stamp_rally_widgets": []
+                }
+            },
+            "ar_targets": [
+                {
+                    "id": 5,
+                    "app_func_ar_camera_id": 6,
+                    "ar_type": 1,
+                    "ar_target_recognition": null,
+                    "name": "ライブ動画",
+                    "marker_file_base_name": "SDD2016",
+                    "image": "https://s3-ap-northeast-1.amazonaws.com/s3-sdd-app/QEY6tjLFT2EiDTpJPAz8hbqqQT2OfT.jpg",
+                    "zip": "https://s3-ap-northeast-1.amazonaws.com/s3-sdd-app/F/QEY6tjLFT2EiDTpJPAz8hbqqQT2OfT.zip",
+                    "version": 2,
+                    "ar_contents": [
+                        {
+                            "id": 4,
+                            "ar_target_id": 5,
+                            "ar_content_type": 2,
+                            "name": "ムービー.mp4",
+                            "file": "https://s3-ap-northeast-1.amazonaws.com/s3-sdd-app/qZku5fvfhnKqz6w8iUEhr6CTfJKIW3.mp4",
+                            "random_group_number": null,
+                            "random_setting": null,
+                            "content_size_x": 1,
+                            "content_size_y": 1,
+                            "content_size_z": 1,
+                            "content_position_x": 0,
+                            "content_position_y": 0,
+                            "content_position_z": 0,
+                            "content_rotation_x": 0,
+                            "content_rotation_y": 0,
+                            "content_rotation_z": 0,
+                            "version": 2,
+                            "ar_events": [
+                                {
+                                    "id": 7,
+                                    "ar_content_id": 4,
+                                    "ar_event_type": 15,
+                                    "ar_event_action_type": null,
+                                    "ar_event_ease_type": null,
+                                    "event_target_ar_content_id": null,
+                                    "name": "play",
+                                    "file": null,
+                                    "url": null,
+                                    "x": null,
+                                    "y": null,
+                                    "z": null,
+                                    "second": null,
+                                    "delay": null,
+                                    "is_loop": false,
+                                    "is_valid": true,
+                                    "from_valid_period": null,
+                                    "to_valid_period": null,
+                                    "option": null,
+                                    "version": 1,
+                                    "created_user_id": 1,
+                                    "updated_user_id": 1,
+                                    "memo": null,
+                                    "created_at": "2020-01-28 09:03:45",
+                                    "updated_at": "2020-01-28 09:03:45",
+                                    "deleted_at": null
+                                },
+                                {
+                                    "id": 8,
+                                    "ar_content_id": 4,
+                                    "ar_event_type": 16,
+                                    "ar_event_action_type": null,
+                                    "ar_event_ease_type": null,
+                                    "event_target_ar_content_id": null,
+                                    "name": "stop",
+                                    "file": null,
+                                    "url": null,
+                                    "x": null,
+                                    "y": null,
+                                    "z": null,
+                                    "second": null,
+                                    "delay": null,
+                                    "is_loop": false,
+                                    "is_valid": true,
+                                    "from_valid_period": null,
+                                    "to_valid_period": null,
+                                    "option": null,
+                                    "version": 1,
+                                    "created_user_id": 1,
+                                    "updated_user_id": 1,
+                                    "memo": null,
+                                    "created_at": "2020-01-28 09:04:27",
+                                    "updated_at": "2020-01-28 09:04:27",
+                                    "deleted_at": null
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "func_id": 2,
+            "app_id": 2,
+            "name": "SDD2015",
+            "screen_layout": {
+                "id": 8,
+                "has_header": true,
+                "header_background": "#FFEB3BFF",
+                "header_logo": null,
+                "has_footer": false,
+                "footer_background": "#2196F3FF",
+                "header_widgets": [
+                    {
+                        "screen_layout_id": 8,
+                        "location": 1,
+                        "app_func_id": 1,
+                        "image": null,
+                        "icon": "0xe5c4"
+                    }
+                ],
+                "footer_widgets": [],
+                "main_widgets": {
+                    "text_widgets": [],
+                    "image_widgets": [],
+                    "movie_widgets": [],
+                    "button_widgets": [],
+                    "stamp_book_widgets": [],
+                    "stamp_rally_widgets": []
+                }
+            },
+            "ar_targets": [
+                {
+                    "id": 6,
+                    "app_func_ar_camera_id": 7,
+                    "ar_type": 1,
+                    "ar_target_recognition": null,
+                    "name": "ライブ動画",
+                    "marker_file_base_name": "SDD2015",
+                    "image": "https://s3-ap-northeast-1.amazonaws.com/s3-sdd-app/AB3FK4vfK4GJQ28lyYmhICOd2TF5tz.jpg",
+                    "zip": "https://s3-ap-northeast-1.amazonaws.com/s3-sdd-app/F/AB3FK4vfK4GJQ28lyYmhICOd2TF5tz.zip",
+                    "version": 2,
+                    "ar_contents": [
+                        {
+                            "id": 5,
+                            "ar_target_id": 6,
+                            "ar_content_type": 2,
+                            "name": "ムービー.mp4",
+                            "file": "https://s3-ap-northeast-1.amazonaws.com/s3-sdd-app/j5BcQESpGHxctblBcZHRxto6w4JBw4.mp4",
+                            "random_group_number": null,
+                            "random_setting": null,
+                            "content_size_x": 1,
+                            "content_size_y": 1,
+                            "content_size_z": 1,
+                            "content_position_x": 0,
+                            "content_position_y": 0,
+                            "content_position_z": 0,
+                            "content_rotation_x": 0,
+                            "content_rotation_y": 0,
+                            "content_rotation_z": 0,
+                            "version": 2,
+                            "ar_events": [
+                                {
+                                    "id": 9,
+                                    "ar_content_id": 5,
+                                    "ar_event_type": 15,
+                                    "ar_event_action_type": null,
+                                    "ar_event_ease_type": null,
+                                    "event_target_ar_content_id": null,
+                                    "name": "play",
+                                    "file": null,
+                                    "url": null,
+                                    "x": null,
+                                    "y": null,
+                                    "z": null,
+                                    "second": null,
+                                    "delay": null,
+                                    "is_loop": false,
+                                    "is_valid": true,
+                                    "from_valid_period": null,
+                                    "to_valid_period": null,
+                                    "option": null,
+                                    "version": 1,
+                                    "created_user_id": 1,
+                                    "updated_user_id": 1,
+                                    "memo": null,
+                                    "created_at": "2020-01-28 09:04:59",
+                                    "updated_at": "2020-01-28 09:04:59",
+                                    "deleted_at": null
+                                },
+                                {
+                                    "id": 10,
+                                    "ar_content_id": 5,
+                                    "ar_event_type": 16,
+                                    "ar_event_action_type": null,
+                                    "ar_event_ease_type": null,
+                                    "event_target_ar_content_id": null,
+                                    "name": "stop",
+                                    "file": null,
+                                    "url": null,
+                                    "x": null,
+                                    "y": null,
+                                    "z": null,
+                                    "second": null,
+                                    "delay": null,
+                                    "is_loop": false,
+                                    "is_valid": true,
+                                    "from_valid_period": null,
+                                    "to_valid_period": null,
+                                    "option": null,
+                                    "version": 1,
+                                    "created_user_id": 1,
+                                    "updated_user_id": 1,
+                                    "memo": null,
+                                    "created_at": "2020-01-28 09:05:13",
+                                    "updated_at": "2020-01-28 09:05:13",
+                                    "deleted_at": null
+                                },
+                                {
+                                    "id": 15,
+                                    "ar_content_id": 5,
+                                    "ar_event_type": 12,
+                                    "ar_event_action_type": null,
+                                    "ar_event_ease_type": null,
+                                    "event_target_ar_content_id": null,
+                                    "name": "delay",
+                                    "file": null,
+                                    "url": "https://stackoverflow.com/questions/44585980/com-apple-webkit-webcontent-drops-113-error-could-not-find-specified-service",
+                                    "x": null,
+                                    "y": null,
+                                    "z": null,
+                                    "second": null,
+                                    "delay": 20,
+                                    "is_loop": false,
+                                    "is_valid": true,
+                                    "from_valid_period": null,
+                                    "to_valid_period": null,
+                                    "option": null,
+                                    "version": 1,
+                                    "created_user_id": 1,
+                                    "updated_user_id": 1,
+                                    "memo": null,
+                                    "created_at": "2020-01-29 15:40:55",
+                                    "updated_at": "2020-01-29 15:40:55",
+                                    "deleted_at": null
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "func_id": 2,
+            "app_id": 2,
+            "name": "SDD2020",
+            "screen_layout": {
+                "id": 9,
+                "has_header": true,
+                "header_background": "#FFEB3BFF",
+                "header_logo": null,
+                "has_footer": false,
+                "footer_background": "#2196F3FF",
+                "header_widgets": [
+                    {
+                        "screen_layout_id": 9,
+                        "location": 1,
+                        "app_func_id": 1,
+                        "image": null,
+                        "icon": "0xe5c4"
+                    }
+                ],
+                "footer_widgets": [],
+                "main_widgets": {
+                    "text_widgets": [],
+                    "image_widgets": [],
+                    "movie_widgets": [],
+                    "button_widgets": [],
+                    "stamp_book_widgets": [],
+                    "stamp_rally_widgets": []
+                }
+            },
+            "ar_targets": [
+                {
+                    "id": 7,
+                    "app_func_ar_camera_id": 8,
+                    "ar_type": 1,
+                    "ar_target_recognition": null,
+                    "name": "ライブ動画",
+                    "marker_file_base_name": "SDD2020",
+                    "image": "https://s3-ap-northeast-1.amazonaws.com/s3-sdd-app/3XGMy5xiR3Qo7CdJEpfLgyqpqVa9BD.jpeg",
+                    "zip": "https://s3-ap-northeast-1.amazonaws.com/s3-sdd-app/F/3XGMy5xiR3Qo7CdJEpfLgyqpqVa9BD.zip",
+                    "version": 5,
+                    "ar_contents": [
+                        {
+                            "id": 7,
+                            "ar_target_id": 7,
+                            "ar_content_type": 2,
+                            "name": "ムービー.mp4",
+                            "file": "https://s3-ap-northeast-1.amazonaws.com/s3-sdd-app/1M1bdjZR0ixDfjFfPkT2LlyoL2yvIw.mp4",
+                            "random_group_number": null,
+                            "random_setting": null,
+                            "content_size_x": 1,
+                            "content_size_y": 1,
+                            "content_size_z": 1,
+                            "content_position_x": 0,
+                            "content_position_y": 0,
+                            "content_position_z": 0,
+                            "content_rotation_x": 0,
+                            "content_rotation_y": 0,
+                            "content_rotation_z": 0,
+                            "version": 3,
+                            "ar_events": [
+                                {
+                                    "id": 11,
+                                    "ar_content_id": 7,
+                                    "ar_event_type": 15,
+                                    "ar_event_action_type": null,
+                                    "ar_event_ease_type": null,
+                                    "event_target_ar_content_id": null,
+                                    "name": "play",
+                                    "file": null,
+                                    "url": null,
+                                    "x": null,
+                                    "y": null,
+                                    "z": null,
+                                    "second": null,
+                                    "delay": null,
+                                    "is_loop": false,
+                                    "is_valid": true,
+                                    "from_valid_period": null,
+                                    "to_valid_period": null,
+                                    "option": null,
+                                    "version": 1,
+                                    "created_user_id": 1,
+                                    "updated_user_id": 1,
+                                    "memo": null,
+                                    "created_at": "2020-01-28 09:06:28",
+                                    "updated_at": "2020-01-28 09:06:28",
+                                    "deleted_at": null
+                                },
+                                {
+                                    "id": 12,
+                                    "ar_content_id": 7,
+                                    "ar_event_type": 16,
+                                    "ar_event_action_type": null,
+                                    "ar_event_ease_type": null,
+                                    "event_target_ar_content_id": null,
+                                    "name": "stop",
+                                    "file": null,
+                                    "url": null,
+                                    "x": null,
+                                    "y": null,
+                                    "z": null,
+                                    "second": null,
+                                    "delay": null,
+                                    "is_loop": false,
+                                    "is_valid": true,
+                                    "from_valid_period": null,
+                                    "to_valid_period": null,
+                                    "option": null,
+                                    "version": 1,
+                                    "created_user_id": 1,
+                                    "updated_user_id": 1,
+                                    "memo": null,
+                                    "created_at": "2020-01-28 09:06:39",
+                                    "updated_at": "2020-01-28 09:06:39",
+                                    "deleted_at": null
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 8,
+                    "app_func_ar_camera_id": 8,
+                    "ar_type": 1,
+                    "ar_target_recognition": null,
+                    "name": "ウイングハート",
+                    "marker_file_base_name": "sdd_wing_heart",
+                    "image": "https://s3-ap-northeast-1.amazonaws.com/s3-sdd-app/uKp0tUQpQQWq2NDyA8sjDlOFqEClEP.jpeg",
+                    "zip": "https://s3-ap-northeast-1.amazonaws.com/s3-sdd-app/F/uKp0tUQpQQWq2NDyA8sjDlOFqEClEP.zip",
+                    "version": 10,
+                    "ar_contents": [
+                        {
+                            "id": 8,
+                            "ar_target_id": 8,
+                            "ar_content_type": 2,
+                            "name": "ムービー.mp4",
+                            "file": "https://s3-ap-northeast-1.amazonaws.com/s3-sdd-app/a9QP1WOTpLSEESokICYkVe0TsKw9hE.mp4",
+                            "random_group_number": null,
+                            "random_setting": null,
+                            "content_size_x": 1,
+                            "content_size_y": 1,
+                            "content_size_z": 1,
+                            "content_position_x": 0,
+                            "content_position_y": 0,
+                            "content_position_z": 0,
+                            "content_rotation_x": 0,
+                            "content_rotation_y": 0,
+                            "content_rotation_z": 0,
+                            "version": 1,
+                            "ar_events": [
+                                {
+                                    "id": 13,
+                                    "ar_content_id": 8,
+                                    "ar_event_type": 15,
+                                    "ar_event_action_type": null,
+                                    "ar_event_ease_type": null,
+                                    "event_target_ar_content_id": null,
+                                    "name": "play",
+                                    "file": null,
+                                    "url": null,
+                                    "x": null,
+                                    "y": null,
+                                    "z": null,
+                                    "second": null,
+                                    "delay": null,
+                                    "is_loop": false,
+                                    "is_valid": true,
+                                    "from_valid_period": null,
+                                    "to_valid_period": null,
+                                    "option": null,
+                                    "version": 1,
+                                    "created_user_id": 1,
+                                    "updated_user_id": 1,
+                                    "memo": null,
+                                    "created_at": "2020-01-28 09:06:51",
+                                    "updated_at": "2020-01-28 09:06:51",
+                                    "deleted_at": null
+                                },
+                                {
+                                    "id": 14,
+                                    "ar_content_id": 8,
+                                    "ar_event_type": 16,
+                                    "ar_event_action_type": null,
+                                    "ar_event_ease_type": null,
+                                    "event_target_ar_content_id": null,
+                                    "name": "stop",
+                                    "file": null,
+                                    "url": null,
+                                    "x": null,
+                                    "y": null,
+                                    "z": null,
+                                    "second": null,
+                                    "delay": null,
+                                    "is_loop": false,
+                                    "is_valid": true,
+                                    "from_valid_period": null,
+                                    "to_valid_period": null,
+                                    "option": null,
+                                    "version": 1,
+                                    "created_user_id": 1,
+                                    "updated_user_id": 1,
+                                    "memo": null,
+                                    "created_at": "2020-01-28 09:07:02",
+                                    "updated_at": "2020-01-28 09:07:02",
+                                    "deleted_at": null
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "func_id": 4,
+            "app_id": 2,
+            "name": "SDDの歴史",
+            "browser_type_id": 1,
+            "url": "http://fmosaka.net/sdd/report/index.html",
+            "screen_layout": null
+        },
+        {
+            "id": 12,
+            "func_id": 4,
+            "app_id": 2,
+            "name": "SDD Message",
+            "browser_type_id": 1,
+            "url": "http://fmosaka.net/sdd/dj_message/index.html",
+            "screen_layout": null
+        },
+        {
+            "id": 13,
+            "func_id": 4,
+            "app_id": 2,
+            "name": "SDD AR archives",
+            "browser_type_id": 3,
+            "url": "https://carm.wiz-services.com/SDD/archives_carm2.php",
+            "screen_layout": {
+                "id": 12,
+                "has_header": false,
+                "header_background": "#2196F3FF",
+                "header_logo": null,
+                "has_footer": false,
+                "footer_background": "#2196F3FF",
+                "header_widgets": [],
+                "footer_widgets": [],
+                "main_widgets": {
+                    "text_widgets": [],
+                    "image_widgets": [
+                        {
+                            "screen_layout_id": 12,
+                            "app_func_id": 12,
+                            "display_name": "Image",
+                            "display_order": 1,
+                            "width": 24,
+                            "height": 13,
+                            "left": 38,
+                            "top": 82,
+                            "image": "https://s3-ap-northeast-1.amazonaws.com/s3-sdd-app/uhExzbfmA66ReReq7dSpx1R9Z0axhs.png"
+                        }
+                    ],
+                    "movie_widgets": [],
+                    "button_widgets": [],
+                    "stamp_book_widgets": [],
+                    "stamp_rally_widgets": []
+                }
+            }
+        },
+        {
+            "id": 14,
+            "func_id": 4,
+            "app_id": 2,
+            "name": "SDD (外部: ホームページ)",
+            "browser_type_id": 2,
+            "url": "http://fmosaka.net/sdd/",
+            "screen_layout": null
+        },
+        {
+            "id": 18,
+            "func_id": 4,
+            "app_id": 2,
+            "name": "SDD (外部: ARマーカー)",
+            "browser_type_id": 2,
+            "url": "http://carm.wiz-services.com/SDD/content/marker.pdf",
+            "screen_layout": null
+        }
+    ]
+}

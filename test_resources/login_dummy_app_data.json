@@ -1,0 +1,204 @@
+{
+    "id": 2,
+    "app_type_id": 1,
+    "initial_app_func_id": 1,
+    "name": "test - using login AppFunc",
+    "image": null,
+    "latest_app_version": "1.0.0",
+    "check_app_version": "1.0.0",
+    "app_store_setting": null,
+    "detections": [],
+    "app_funcs": [
+        {
+            "id": 1,
+            "func_id": 1,
+            "app_id": 2,
+            "name": "top page",
+            "screen_layout": {
+                "id": 1,
+                "has_header": true,
+                "header_background": "#2196F3FF",
+                "header_logo": null,
+                "has_footer": false,
+                "footer_background": "#2196F3FF",
+                "header_widgets": [],
+                "footer_widgets": [],
+                "main_widgets": {
+                    "text_widgets": [
+                        {
+                            "id": 1,
+                            "screen_layout_id": 1,
+                            "app_func_id": null,
+                            "display_name": "TOP PAGE",
+                            "display_order": 1,
+                            "width": 0,
+                            "height": 0,
+                            "left": 27,
+                            "top": 4,
+                            "font_color": "#000000FF",
+                            "content": "TOP PAGE",
+                            "font_size": 23
+                        }
+                    ],
+                    "image_widgets": [],
+                    "movie_widgets": [],
+                    "button_widgets": [
+                        {
+                            "id": 1,
+                            "screen_layout_id": 1,
+                            "app_func_id": 2,
+                            "display_name": "Button",
+                            "display_order": 2,
+                            "width": 66,
+                            "height": 15,
+                            "left": 18,
+                            "top": 24,
+                            "background": "#F57F17FF",
+                            "font_color": "#FFFFFFFF",
+                            "content": "Login Page",
+                            "icon": null
+                        }
+                    ],
+                    "stamp_book_widgets": [],
+                    "stamp_rally_widgets": [],
+                    "point_book_widgets": []
+                }
+            }
+        },
+        {
+            "id": 2,
+            "func_id": 9,
+            "app_id": 2,
+            "name": "Login AppFunc (freelayout)",
+            "screen_layout": {
+                "id": 2,
+                "has_header": true,
+                "header_background": "#2196F3FF",
+                "header_logo": null,
+                "has_footer": false,
+                "footer_background": "#2196F3FF",
+                "header_widgets": [
+                    {
+                        "id": 1,
+                        "screen_layout_id": 2,
+                        "location": 1,
+                        "app_func_id": null,
+                        "image": null,
+                        "icon": "0xe5c4"
+                    }
+                ],
+                "footer_widgets": [],
+                "main_widgets": {
+                    "text_widgets": [
+                        {
+                            "id": 3,
+                            "screen_layout_id": 2,
+                            "app_func_id": null,
+                            "display_name": "Text",
+                            "display_order": 2,
+                            "width": 0,
+                            "height": 0,
+                            "left": 30,
+                            "top": 48,
+                            "font_color": "#000000FF",
+                            "content": "login_field_id",
+                            "font_size": 16
+                        },
+                        {
+                            "id": 4,
+                            "screen_layout_id": 2,
+                            "app_func_id": null,
+                            "display_name": "Text",
+                            "display_order": 3,
+                            "width": 0,
+                            "height": 0,
+                            "left": 20,
+                            "top": 56,
+                            "font_color": "#000000FF",
+                            "content": "login_field_password",
+                            "font_size": 16
+                        }
+                    ],
+                    "image_widgets": [],
+                    "movie_widgets": [],
+                    "button_widgets": [
+                        {
+                            "id": 2,
+                            "screen_layout_id": 2,
+                            "app_func_id": 3,
+                            "display_name": "Button",
+                            "display_order": 4,
+                            "width": 60,
+                            "height": 9,
+                            "left": 20,
+                            "top": 68,
+                            "background": "#2196F3FF",
+                            "font_color": "#FFFFFFFF",
+                            "content": "Login",
+                            "icon": null
+                        }
+                    ],
+                    "stamp_book_widgets": [],
+                    "stamp_rally_widgets": [],
+                    "point_book_widgets": []
+                }
+            }
+        },
+        {
+            "id": 3,
+            "func_id": 1,
+            "app_id": 2,
+            "name": "login successful page",
+            "screen_layout": {
+                "id": 1,
+                "has_header": true,
+                "header_background": "#2196F3FF",
+                "header_logo": null,
+                "has_footer": false,
+                "footer_background": "#2196F3FF",
+                "header_widgets": [],
+                "footer_widgets": [],
+                "main_widgets": {
+                    "text_widgets": [
+                        {
+                            "id": 1,
+                            "screen_layout_id": 1,
+                            "app_func_id": null,
+                            "display_name": "LOGIN SUCCESS PAGE",
+                            "display_order": 1,
+                            "width": 0,
+                            "height": 0,
+                            "left": 27,
+                            "top": 4,
+                            "font_color": "#000000FF",
+                            "content": "LOGIN SUCCESS PAGE",
+                            "font_size": 23
+                        }
+                    ],
+                    "image_widgets": [],
+                    "movie_widgets": [],
+                    "button_widgets": [
+                        {
+                            "id": 1,
+                            "screen_layout_id": 1,
+                            "app_func_id": 1,
+                            "display_name": "Button",
+                            "display_order": 2,
+                            "width": 66,
+                            "height": 15,
+                            "left": 18,
+                            "top": 24,
+                            "background": "#F57F17FF",
+                            "font_color": "#FFFFFFFF",
+                            "content": "Top Page",
+                            "icon": null
+                        }
+                    ],
+                    "stamp_book_widgets": [],
+                    "stamp_rally_widgets": [],
+                    "point_book_widgets": []
+                }
+            }
+        }
+    ]
+}

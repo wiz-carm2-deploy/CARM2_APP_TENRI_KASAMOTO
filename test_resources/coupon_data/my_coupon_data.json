@@ -1,0 +1,43 @@
+{
+  "coupons": [
+    {
+      "coupon_use_id": 1,
+      "name": "【京ろまんクーポン】大和美流着物学院の半襟プレゼント",
+      "image": "https://carmapp.iihansoku.com/KyoRomanContents/demoCoupon/coupon1.png",
+      "use_type": "1回のみ",
+      "from_valid_period": "2020-01-01 00:00:00",
+      "to_valid_period": "2021-05-31 23:59:00",
+      "cost": 1,
+      "contents": "大和美流着物学院の半襟をプレゼントいたします。",
+      "memo": "",
+      "is_usable": true,
+      "display_label": ""
+    },
+    {
+      "coupon_use_id": 2,
+      "name": "【京ろまんクーポン】セオアルファ浴衣30％OFF",
+      "image": "https://carmapp.iihansoku.com/KyoRomanContents/demoCoupon/coupon2.png",
+      "use_type": "1回のみ",
+      "from_valid_period": "2020-01-01 00:00:00",
+      "to_valid_period": "2021-05-31 23:59:00",
+      "cost": 5,
+      "contents": "セオアルファ浴衣30％OFFいたします。",
+      "memo": "",
+      "is_usable": true,
+      "display_label": "ポイントが足りません。"
+    },
+    {
+      "coupon_use_id": 3,
+      "name": "【京ろまんクーポン】セオアルファ浴衣30％OFF",
+      "image": "https://carmapp.iihansoku.com/KyoRomanContents/demoCoupon/coupon2.png",
+      "use_type": "1回のみ",
+      "from_valid_period": "2020-01-01 00:00:00",
+      "to_valid_period": "2021-05-31 23:59:00",
+      "cost": 5,
+      "contents": "セオアルファ浴衣30％OFFいたします。",
+      "memo": "",
+      "is_usable": false,
+      "display_label": "利用済み"
+    }
+  ]
+}

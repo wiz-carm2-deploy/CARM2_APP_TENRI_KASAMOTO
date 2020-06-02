@@ -1,0 +1,16 @@
+{
+    "notification_histories": [
+        {
+            "id": 1,
+            "title": "test",
+            "content": "test",
+            "image": "https://www.sankei.com/images/news/190527/wst1905270029-p1.jpg"
+        },
+        {
+            "id": 1,
+            "title": "test",
+            "content": "test",
+            "image": "https://itm.news2u.net/items/output/143973/1"
+        }
+    ]
+}

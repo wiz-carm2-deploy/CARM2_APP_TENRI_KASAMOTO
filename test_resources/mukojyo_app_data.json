@@ -1,0 +1,176 @@
+{
+    "id": 1,
+    "app_type": 1,
+    "initial_app_func_id": 1,
+    "name": "test",
+    "image": null,
+    "latest_app_version": null,
+    "check_app_version": null,
+    "app_store_setting": null,
+    "detections": [],
+    "initial_notifications": [
+        {
+            "id": 4,
+            "title": "かなり長いお知らせ",
+            "body": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt voluptates esse, labore minima, mollitia dolore nam harum itaque eligendi iure molestias consequuntur enim optio porro rerum natus quos necessitatibus fugiat.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt voluptates esse, labore minima, mollitia dolore nam harum itaque eligendi iure molestias consequuntur enim optio porro rerum natus quos necessitatibus fugiat.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt voluptates esse, labore minima, mollitia dolore nam harum itaque eligendi iure molestias consequuntur enim optio porro rerum natus quos necessitatibus fugiat.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt voluptates esse, labore minima, mollitia dolore nam harum itaque eligendi iure molestias consequuntur enim optio porro rerum natus quos necessitatibus fugiat.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt voluptates esse, labore minima, mollitia dolore nam harum itaque eligendi iure molestias consequuntur enim optio porro rerum natus quos necessitatibus fugiat.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt voluptates esse, labore minima, mollitia dolore nam harum itaque eligendi iure molestias consequuntur enim optio porro rerum natus quos necessitatibus fugiat.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt voluptates esse, labore minima, mollitia dolore nam harum itaque eligendi iure molestias consequuntur enim optio porro rerum natus quos necessitatibus fugiat.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt voluptates esse, labore minima, mollitia dolore nam harum itaque eligendi iure molestias consequuntur enim optio porro rerum natus quos necessitatibus fugiat.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt voluptates esse, labore minima, mollitia dolore nam harum itaque eligendi iure molestias consequuntur enim optio porro rerum natus quos necessitatibus fugiat.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt voluptates esse, labore minima, mollitia dolore nam harum itaque eligendi iure molestias consequuntur enim optio porro rerum natus quos necessitatibus fugiat.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt voluptates esse, labore minima, mollitia dolore nam harum itaque eligendi iure molestias consequuntur enim optio porro rerum natus quos necessitatibus fugiat.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt voluptates esse, labore minima, mollitia dolore nam harum itaque eligendi iure molestias consequuntur enim optio porro rerum natus quos necessitatibus fugiat.",
+            "type": "news"
+        },
+        {
+            "id": 3,
+            "title": "少し長いお知らせ",
+            "body": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt voluptates esse, labore minima, mollitia dolore nam harum itaque eligendi iure molestias consequuntur enim optio porro rerum natus quos necessitatibus fugiat.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt voluptates esse, labore minima, mollitia dolore nam harum itaque eligendi iure molestias consequuntur enim optio porro rerum natus quos necessitatibus fugiat.",
+            "type": "news"
+        },
+        {
+            "id": 1,
+            "title": "NEWS",
+            "body": "ポイント残高が確認できるようになりました。",
+            "type": "news"
+        },
+        {
+            "id": 2,
+            "title": "利用契約",
+            "body": "同意してください。",
+            "type": "tos"
+        },
+        {
+            "id": 5,
+            "title": "長い利用契約",
+            "body": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt voluptates esse, labore minima, mollitia dolore nam harum itaque eligendi iure molestias consequuntur enim optio porro rerum natus quos necessitatibus fugiat.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt voluptates esse, labore minima, mollitia dolore nam harum itaque eligendi iure molestias consequuntur enim optio porro rerum natus quos necessitatibus fugiat.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt voluptates esse, labore minima, mollitia dolore nam harum itaque eligendi iure molestias consequuntur enim optio porro rerum natus quos necessitatibus fugiat.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt voluptates esse, labore minima, mollitia dolore nam harum itaque eligendi iure molestias consequuntur enim optio porro rerum natus quos necessitatibus fugiat.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt voluptates esse, labore minima, mollitia dolore nam harum itaque eligendi iure molestias consequuntur enim optio porro rerum natus quos necessitatibus fugiat.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt voluptates esse, labore minima, mollitia dolore nam harum itaque eligendi iure molestias consequuntur enim optio porro rerum natus quos necessitatibus fugiat.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt voluptates esse, labore minima, mollitia dolore nam harum itaque eligendi iure molestias consequuntur enim optio porro rerum natus quos necessitatibus fugiat.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt voluptates esse, labore minima, mollitia dolore nam harum itaque eligendi iure molestias consequuntur enim optio porro rerum natus quos necessitatibus fugiat.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt voluptates esse, labore minima, mollitia dolore nam harum itaque eligendi iure molestias consequuntur enim optio porro rerum natus quos necessitatibus fugiat.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt voluptates esse, labore minima, mollitia dolore nam harum itaque eligendi iure molestias consequuntur enim optio porro rerum natus quos necessitatibus fugiat.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt voluptates esse, labore minima, mollitia dolore nam harum itaque eligendi iure molestias consequuntur enim optio porro rerum natus quos necessitatibus fugiat.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt voluptates esse, labore minima, mollitia dolore nam harum itaque eligendi iure molestias consequuntur enim optio porro rerum natus quos necessitatibus fugiat.",
+            "type": "tos"
+        }
+    ],
+    "app_funcs": [
+        {
+            "id": 1,
+            "func_id": 1,
+            "app_id": 1,
+            "name": "武庫女トップ画面",
+            "screen_layout": {
+                "id": 2,
+                "has_header": false,
+                "header_background": "#2196F3FF",
+                "header_logo": null,
+                "has_footer": false,
+                "footer_background": "#2196F3FF",
+                "header_widgets": [],
+                "footer_widgets": [],
+                "main_widgets": {
+                    "text_widgets": [],
+                    "image_widgets": [],
+                    "movie_widgets": [],
+                    "button_widgets": [
+                        {
+                            "id": 2,
+                            "screen_layout_id": 2,
+                            "app_func_id": 3,
+                            "display_name": "Button",
+                            "display_order": 1,
+                            "width": 63,
+                            "height": 15,
+                            "left": 18,
+                            "top": 43,
+                            "background": "#2196F3FF",
+                            "font_color": "#FFFFFFFF",
+                            "content": "login page",
+                            "icon": null
+                        }
+                    ],
+                    "stamp_book_widgets": [],
+                    "stamp_rally_widgets": [],
+                    "point_book_widgets": []
+                }
+            }
+        },
+        {
+            "id": 2,
+            "func_id": 10,
+            "app_id": 1,
+            "name": "武庫女 店舗選択画面",
+            "shop_infos": [
+                {
+                    "id": 1,
+                    "name": "華SAKU"
+                },
+                {
+                    "id": 2,
+                    "name": "なんすい"
+                }
+            ],
+            "screen_layout": null
+        },
+        {
+            "id": 3,
+            "func_id": 8,
+            "app_id": 1,
+            "name": "武庫女ログイン画面",
+            "can_sign_up": false,
+            "use_login_id_column": "2",
+            "expire_minute": null,
+            "screen_layout": {
+                "id": 1,
+                "has_header": false,
+                "header_background": "#2196F3FF",
+                "header_logo": null,
+                "has_footer": false,
+                "footer_background": "#2196F3FF",
+                "header_widgets": [],
+                "footer_widgets": [],
+                "main_widgets": {
+                    "text_widgets": [
+                        {
+                            "id": 1,
+                            "screen_layout_id": 1,
+                            "app_func_id": null,
+                            "display_name": "Text",
+                            "display_order": 1,
+                            "width": 0,
+                            "height": 0,
+                            "left": 43,
+                            "top": 33,
+                            "font_color": "#000000FF",
+                            "content": "アカウントID",
+                            "font_size": 16
+                        },
+                        {
+                            "id": 2,
+                            "screen_layout_id": 1,
+                            "app_func_id": null,
+                            "display_name": "Text",
+                            "display_order": 2,
+                            "width": 0,
+                            "height": 0,
+                            "left": 43,
+                            "top": 48,
+                            "font_color": "#000000FF",
+                            "content": "パスワード",
+                            "font_size": 16
+                        }
+                    ],
+                    "image_widgets": [],
+                    "movie_widgets": [],
+                    "button_widgets": [
+                        {
+                            "id": 1,
+                            "screen_layout_id": 1,
+                            "app_func_id": 2,
+                            "display_name": "Button",
+                            "display_order": 1,
+                            "width": 60,
+                            "height": 15,
+                            "left": 20,
+                            "top": 61,
+                            "background": "#000000FF",
+                            "font_color": "#FFFFFFFF",
+                            "content": "ログイン",
+                            "icon": null
+                        }
+                    ],
+                    "stamp_book_widgets": [],
+                    "stamp_rally_widgets": [],
+                    "point_book_widgets": []
+                }
+            }
+        }
+    ]
+}

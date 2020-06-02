@@ -1,0 +1,1083 @@
+{
+    "id": 3,
+    "app_type": 1,
+    "initial_app_func_id": 20,
+    "name": "京ろまん - TEST",
+    "image": null,
+    "latest_app_version": null,
+    "check_app_version": null,
+    "initial_popups": [],
+    "app_store_setting": null,
+    "detections": [
+        {
+            "id": 6,
+            "name": "Kyoroman Test Ar Target_ARターゲット喪失",
+            "app_id": 3,
+            "detection_conditions": [
+                {
+                    "id": 9,
+                    "detection_id": 6,
+                    "detection_pattern": 2,
+                    "valid_weekday": null,
+                    "from_valid_timezone": null,
+                    "to_valid_timezone": null,
+                    "longitude": null,
+                    "latitude": null,
+                    "range": null,
+                    "ar_target_id": 4
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "name": "かざすと1ポイント_ARターゲット発見",
+            "app_id": 3,
+            "detection_conditions": [
+                {
+                    "id": 6,
+                    "detection_id": 8,
+                    "detection_pattern": 1,
+                    "valid_weekday": null,
+                    "from_valid_timezone": null,
+                    "to_valid_timezone": null,
+                    "longitude": null,
+                    "latitude": null,
+                    "range": null,
+                    "ar_target_id": 6
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "name": "かざすと1ポイント_ARターゲット喪失",
+            "app_id": 3,
+            "detection_conditions": [
+                {
+                    "id": 12,
+                    "detection_id": 9,
+                    "detection_pattern": 2,
+                    "valid_weekday": null,
+                    "from_valid_timezone": null,
+                    "to_valid_timezone": null,
+                    "longitude": null,
+                    "latitude": null,
+                    "range": null,
+                    "ar_target_id": 6
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "name": "ぬりえ1_ARターゲット発見",
+            "app_id": 3,
+            "detection_conditions": [
+                {
+                    "id": 8,
+                    "detection_id": 10,
+                    "detection_pattern": 1,
+                    "valid_weekday": null,
+                    "from_valid_timezone": null,
+                    "to_valid_timezone": null,
+                    "longitude": null,
+                    "latitude": null,
+                    "range": null,
+                    "ar_target_id": 7
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "name": "ぬりえ1_ARターゲット喪失",
+            "app_id": 3,
+            "detection_conditions": [
+                {
+                    "id": 15,
+                    "detection_id": 14,
+                    "detection_pattern": 2,
+                    "valid_weekday": null,
+                    "from_valid_timezone": null,
+                    "to_valid_timezone": null,
+                    "longitude": null,
+                    "latitude": null,
+                    "range": null,
+                    "ar_target_id": 7
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "name": "ARターゲット_atarget_発見",
+            "app_id": 3,
+            "detection_conditions": [
+                {
+                    "id": 16,
+                    "detection_id": 15,
+                    "detection_pattern": 1,
+                    "valid_weekday": null,
+                    "from_valid_timezone": null,
+                    "to_valid_timezone": null,
+                    "longitude": null,
+                    "latitude": null,
+                    "range": null,
+                    "ar_target_id": 10
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "name": "ARターゲット_atarget_喪失",
+            "app_id": 3,
+            "detection_conditions": [
+                {
+                    "id": 17,
+                    "detection_id": 16,
+                    "detection_pattern": 2,
+                    "valid_weekday": null,
+                    "from_valid_timezone": null,
+                    "to_valid_timezone": null,
+                    "longitude": null,
+                    "latitude": null,
+                    "range": null,
+                    "ar_target_id": 10
+                }
+            ]
+        }
+    ],
+    "app_funcs": [
+        {
+            "id": 14,
+            "func_id": 1,
+            "app_id": 3,
+            "name": "京ろまん 会員トップ画面(ログイン必要)",
+            "screen_layout": {
+                "id": 15,
+                "has_header": true,
+                "header_background": "#ffffff",
+                "header_logo": "https://s3-ap-northeast-1.amazonaws.com/s3-carm2test-wiz-upload/sYA1vXxMOci1qyzraXa2mQJLwgAEeN.png",
+                "has_footer": true,
+                "footer_background": "#c7428c",
+                "header_widgets": [],
+                "footer_widgets": [
+                    {
+                        "id": 3,
+                        "screen_layout_id": 15,
+                        "app_func_id": 20,
+                        "display_name": "ホーム",
+                        "display_order": 1,
+                        "font_color": "#FFFFFFFF",
+                        "icon": null,
+                        "image": "https://s3-ap-northeast-1.amazonaws.com/s3-carm2test-wiz-upload/RDg2Vhed2hmY9c5wOrSsyU5f9Du54m.png"
+                    },
+                    {
+                        "id": 4,
+                        "screen_layout_id": 15,
+                        "app_func_id": 27,
+                        "display_name": "お知らせ",
+                        "display_order": 2,
+                        "font_color": "#FFFFFFFF",
+                        "icon": null,
+                        "image": "https://s3-ap-northeast-1.amazonaws.com/s3-carm2test-wiz-upload/Yt1g60VljE1p1hDbeGtI02npBjGX4c.png"
+                    },
+                    {
+                        "id": 5,
+                        "screen_layout_id": 15,
+                        "app_func_id": 17,
+                        "display_name": "AR",
+                        "display_order": 3,
+                        "font_color": "#FFFFFFFF",
+                        "icon": null,
+                        "image": "https://s3-ap-northeast-1.amazonaws.com/s3-carm2test-wiz-upload/MUtkCiUSImh650CS8MfrFjmRs9EANL.png"
+                    },
+                    {
+                        "id": 6,
+                        "screen_layout_id": 15,
+                        "app_func_id": 28,
+                        "display_name": "お問合せ",
+                        "display_order": 4,
+                        "font_color": "#FFFFFFFF",
+                        "icon": null,
+                        "image": "https://s3-ap-northeast-1.amazonaws.com/s3-carm2test-wiz-upload/xPtSSpUBCO8dk2Byszk4opJK70OYXw.png"
+                    },
+                    {
+                        "id": 7,
+                        "screen_layout_id": 15,
+                        "app_func_id": 21,
+                        "display_name": "アカウント",
+                        "display_order": 5,
+                        "font_color": "#FFFFFFFF",
+                        "icon": null,
+                        "image": "https://s3-ap-northeast-1.amazonaws.com/s3-carm2test-wiz-upload/8KZ5al0zdb4hm3nBl0BOkJZKlGTzZJ.png"
+                    }
+                ],
+                "main_widgets": {
+                    "text_widgets": [
+                        {
+                            "id": 10,
+                            "screen_layout_id": 15,
+                            "app_func_id": null,
+                            "display_name": "積立金残高",
+                            "display_order": 3,
+                            "width": 0,
+                            "height": 0,
+                            "left": 7,
+                            "top": 48,
+                            "font_color": "#000000FF",
+                            "content": "積立金残高",
+                            "font_size": 10
+                        },
+                        {
+                            "id": 11,
+                            "screen_layout_id": 15,
+                            "app_func_id": null,
+                            "display_name": "[balance]",
+                            "display_order": 3,
+                            "width": 0,
+                            "height": 0,
+                            "left": 34,
+                            "top": 45,
+                            "font_color": "#000000FF",
+                            "content": "123,000 円",
+                            "font_size": 25
+                        }
+                    ],
+                    "image_widgets": [
+                        {
+                            "id": 1,
+                            "screen_layout_id": 15,
+                            "app_func_id": null,
+                            "display_name": "MEMBER'S CARD",
+                            "display_order": 3,
+                            "width": 5,
+                            "height": 1,
+                            "left": 0,
+                            "top": 0,
+                            "image": "https://s3-ap-northeast-1.amazonaws.com/s3-carm2test-wiz-upload/seCWFKF2QKoq07bCwm2vjh5hxG2hSN.png"
+                        },
+                        {
+                            "id": 25,
+                            "screen_layout_id": 15,
+                            "app_func_id": null,
+                            "display_name": "背景",
+                            "display_order": 5,
+                            "width": 100,
+                            "height": 28,
+                            "left": 0,
+                            "top": 0,
+                            "image": "https://s3-ap-northeast-1.amazonaws.com/s3-carm2test-wiz-upload/0YMEADb0HdkCDUYOLSxJ89gO6NbF98.png"
+                        },
+                        {
+                            "id": 26,
+                            "screen_layout_id": 15,
+                            "app_func_id": 42,
+                            "display_name": "使用可能店舗",
+                            "display_order": 6,
+                            "width": 30,
+                            "height": 12,
+                            "left": 0,
+                            "top": 60,
+                            "image": "https://s3-ap-northeast-1.amazonaws.com/s3-carm2test-wiz-upload/FijQ4zqDX8oIz2FA4FY2dTGOoGrhrx.png"
+                        },
+                        {
+                            "id": 27,
+                            "screen_layout_id": 15,
+                            "app_func_id": null,
+                            "display_name": "使う",
+                            "display_order": 7,
+                            "width": 30,
+                            "height": 12,
+                            "left": 0,
+                            "top": 80,
+                            "image": "https://s3-ap-northeast-1.amazonaws.com/s3-carm2test-wiz-upload/jTsdCgQLWoajgRYBtyEkrhLbfiBHhJ.png"
+                        },
+                        {
+                            "id": 28,
+                            "screen_layout_id": 15,
+                            "app_func_id": null,
+                            "display_name": "貯めて買える",
+                            "display_order": 8,
+                            "width": 30,
+                            "height": 12,
+                            "left": 35,
+                            "top": 60,
+                            "image": "https://s3-ap-northeast-1.amazonaws.com/s3-carm2test-wiz-upload/ecq3VistmdeUZBxUBgnP0zlXRzNWoY.png"
+                        },
+                        {
+                            "id": 29,
+                            "screen_layout_id": 15,
+                            "app_func_id": null,
+                            "display_name": "お得情報",
+                            "display_order": 9,
+                            "width": 30,
+                            "height": 12,
+                            "left": 69,
+                            "top": 60,
+                            "image": "https://s3-ap-northeast-1.amazonaws.com/s3-carm2test-wiz-upload/4BCZpe5S6BJ30V6TXrXH5WBA4FfWZ9.png"
+                        },
+                        {
+                            "id": 30,
+                            "screen_layout_id": 15,
+                            "app_func_id": 16,
+                            "display_name": "来店スタンプ",
+                            "display_order": 10,
+                            "width": 30,
+                            "height": 12,
+                            "left": 35,
+                            "top": 80,
+                            "image": "https://s3-ap-northeast-1.amazonaws.com/s3-carm2test-wiz-upload/kx5DOtJWxey1oJwMWpcSdmSdR0Kn2b.png"
+                        },
+                        {
+                            "id": 31,
+                            "screen_layout_id": 15,
+                            "app_func_id": 99,
+                            "display_name": "クーポン",
+                            "display_order": 10,
+                            "width": 30,
+                            "height": 12,
+                            "left": 69,
+                            "top": 80,
+                            "image": "https://s3-ap-northeast-1.amazonaws.com/s3-carm2test-wiz-upload/AXAZ0uUInF4wkIaYqp6U6bb5DpkiLn.png"
+                        }
+                    ],
+                    "movie_widgets": [],
+                    "button_widgets": [],
+                    "stamp_book_widgets": [],
+                    "stamp_rally_widgets": [],
+                    "point_book_widgets": []
+                }
+            }
+        },
+        {
+            "id": 15,
+            "func_id": 8,
+            "app_id": 3,
+            "name": "京ろまん ログイン",
+            "can_sign_up": true,
+            "use_login_id_column": "account_id",
+            "expire_minute": null,
+            "member_registration_attrs": {
+                "attrs": [
+                    {
+                        "id": 13,
+                        "name": "性",
+                        "is_editing": true,
+                        "input_type": 4,
+                        "def_val": null,
+                        "sup_ex": null,
+                        "attr_items": [],
+                        "attr_values": []
+                    },
+                    {
+                        "id": 14,
+                        "name": "名",
+                        "is_editing": true,
+                        "input_type": 4,
+                        "def_val": null,
+                        "sup_ex": null,
+                        "attr_items": [],
+                        "attr_values": []
+                    },
+                    {
+                        "id": 10,
+                        "name": "生年月日",
+                        "is_editing": true,
+                        "input_type": 6,
+                        "def_val": null,
+                        "sup_ex": null,
+                        "attr_items": [],
+                        "attr_values": []
+                    },
+                    {
+                        "id": 11,
+                        "name": "入会日",
+                        "is_editing": true,
+                        "input_type": 6,
+                        "def_val": null,
+                        "sup_ex": null,
+                        "attr_items": [],
+                        "attr_values": []
+                    }
+                ]
+            },
+            "screen_layout": {
+                "id": 16,
+                "has_header": false,
+                "header_background": "#2196F3FF",
+                "header_logo": null,
+                "has_footer": false,
+                "footer_background": "#2196F3FF",
+                "header_widgets": [],
+                "footer_widgets": [],
+                "main_widgets": {
+                    "text_widgets": [
+                        {
+                            "id": 6,
+                            "screen_layout_id": 16,
+                            "app_func_id": null,
+                            "display_name": "Text",
+                            "display_order": 2,
+                            "width": 0,
+                            "height": 0,
+                            "left": 0,
+                            "top": 0,
+                            "font_color": "#000000FF",
+                            "content": "友の会カード番号",
+                            "font_size": 16
+                        },
+                        {
+                            "id": 7,
+                            "screen_layout_id": 16,
+                            "app_func_id": null,
+                            "display_name": "Text",
+                            "display_order": 3,
+                            "width": 0,
+                            "height": 0,
+                            "left": 0,
+                            "top": 6,
+                            "font_color": "#000000FF",
+                            "content": "パスワード",
+                            "font_size": 16
+                        }
+                    ],
+                    "image_widgets": [],
+                    "movie_widgets": [],
+                    "button_widgets": [
+                        {
+                            "id": 28,
+                            "screen_layout_id": 16,
+                            "app_func_id": 14,
+                            "display_name": "Button",
+                            "display_order": 1,
+                            "width": 60,
+                            "height": 15,
+                            "left": 21,
+                            "top": 43,
+                            "background": "#b8186d",
+                            "font_color": "#FFFFFFFF",
+                            "content": "ログイン",
+                            "icon": null
+                        }
+                    ],
+                    "stamp_book_widgets": [],
+                    "stamp_rally_widgets": [],
+                    "point_book_widgets": []
+                }
+            }
+        },
+        {
+            "id": 16,
+            "func_id": 7,
+            "app_id": 3,
+            "name": "京ろまん　ポイント帳",
+            "collection_type": 3,
+            "max_get_count": null,
+            "use_future_day_collection": null,
+            "is_disp_acquisition_date": false,
+            "screen_layout": {
+                "id": 17,
+                "has_header": true,
+                "header_background": "#ffffff",
+                "header_logo": "https://s3-ap-northeast-1.amazonaws.com/s3-carm2test-wiz-upload/S835yzLSVrIdC8sKf1w2D16RT3QcSC.png",
+                "has_footer": true,
+                "footer_background": "#c7428c",
+                "header_widgets": [],
+                "footer_widgets": [
+                    {
+                        "id": 13,
+                        "screen_layout_id": 17,
+                        "app_func_id": 14,
+                        "display_name": "ホーム (ログイン必要画面へ)",
+                        "display_order": 1,
+                        "font_color": "#FFFFFFFF",
+                        "icon": null,
+                        "image": "https://s3-ap-northeast-1.amazonaws.com/s3-carm2test-wiz-upload/zdERLjo3TmMzDSXPVikMZpbvvKez1U.png"
+                    },
+                    {
+                        "id": 14,
+                        "screen_layout_id": 17,
+                        "app_func_id": 27,
+                        "display_name": "お知らせ",
+                        "display_order": 2,
+                        "font_color": "#FFFFFFFF",
+                        "icon": null,
+                        "image": "https://s3-ap-northeast-1.amazonaws.com/s3-carm2test-wiz-upload/eHgRM00r26xPtEnFlh234qgQ6OO4qk.png"
+                    },
+                    {
+                        "id": 15,
+                        "screen_layout_id": 17,
+                        "app_func_id": 17,
+                        "display_name": "AR",
+                        "display_order": 3,
+                        "font_color": "#FFFFFFFF",
+                        "icon": null,
+                        "image": "https://s3-ap-northeast-1.amazonaws.com/s3-carm2test-wiz-upload/sup6s740wnJoFO1fXHrqunDcwCzcw7.png"
+                    },
+                    {
+                        "id": 16,
+                        "screen_layout_id": 17,
+                        "app_func_id": 28,
+                        "display_name": "お問合せ",
+                        "display_order": 4,
+                        "font_color": "#FFFFFFFF",
+                        "icon": null,
+                        "image": "https://s3-ap-northeast-1.amazonaws.com/s3-carm2test-wiz-upload/EzLRzBL1TXDs0eUoJc369oHQG1JGD3.png"
+                    },
+                    {
+                        "id": 17,
+                        "screen_layout_id": 17,
+                        "app_func_id": 21,
+                        "display_name": "アカウント",
+                        "display_order": 5,
+                        "font_color": "#FFFFFFFF",
+                        "icon": null,
+                        "image": "https://s3-ap-northeast-1.amazonaws.com/s3-carm2test-wiz-upload/5xZhywSjiOJLONidi9pnkTzbvjyYtU.png"
+                    }
+                ],
+                "main_widgets": {
+                    "text_widgets": [
+                        {
+                            "id": 5,
+                            "screen_layout_id": 17,
+                            "app_func_id": null,
+                            "display_name": "[ポイント]",
+                            "display_order": 3,
+                            "width": 0,
+                            "height": 0,
+                            "left": 68,
+                            "top": 16,
+                            "font_color": "#000000FF",
+                            "content": "[point]",
+                            "font_size": 60
+                        },
+                        {
+                            "id": 8,
+                            "screen_layout_id": 17,
+                            "app_func_id": null,
+                            "display_name": "ポイント数",
+                            "display_order": 4,
+                            "width": 0,
+                            "height": 0,
+                            "left": 20,
+                            "top": 15,
+                            "font_color": "#000000FF",
+                            "content": "ポイント数",
+                            "font_size": 16
+                        },
+                        {
+                            "id": 9,
+                            "screen_layout_id": 17,
+                            "app_func_id": null,
+                            "display_name": "ポイント",
+                            "display_order": 5,
+                            "width": 0,
+                            "height": 0,
+                            "left": 68,
+                            "top": 21,
+                            "font_color": "#000000FF",
+                            "content": "ポイント",
+                            "font_size": 24
+                        }
+                    ],
+                    "image_widgets": [],
+                    "movie_widgets": [],
+                    "button_widgets": [
+                        {
+                            "id": 30,
+                            "screen_layout_id": 17,
+                            "app_func_id": 17,
+                            "display_name": "Button",
+                            "display_order": 1,
+                            "width": 72,
+                            "height": 15,
+                            "left": 14,
+                            "top": 54,
+                            "background": "#b8186d",
+                            "font_color": "#FFFFFFFF",
+                            "content": "ポイントを取得",
+                            "icon": null
+                        },
+                        {
+                            "id": 31,
+                            "screen_layout_id": 17,
+                            "app_func_id": 99,
+                            "display_name": "Button",
+                            "display_order": 2,
+                            "width": 72,
+                            "height": 15,
+                            "left": 14,
+                            "top": 73,
+                            "background": "#b8186d",
+                            "font_color": "#FFFFFFFF",
+                            "content": "クーポン",
+                            "icon": null
+                        }
+                    ],
+                    "stamp_book_widgets": [],
+                    "stamp_rally_widgets": [],
+                    "point_book_widgets": []
+                }
+            }
+        },
+        {
+            "id": 17,
+            "func_id": 2,
+            "app_id": 3,
+            "name": "ポイントAR",
+            "ar_targets": [
+                {
+                    "id": 6,
+                    "app_func_ar_camera_id": 3,
+                    "ar_type": 1,
+                    "ar_target_recognition": null,
+                    "name": "かざすと5ポイント",
+                    "marker_file_base_name": "ar_1point",
+                    "image": "https://s3-ap-northeast-1.amazonaws.com/s3-carm2test-wiz-upload/D5xCzoPEnEaEzXwgRBePwf4bbNUJfP.png",
+                    "zip": "https://s3-ap-northeast-1.amazonaws.com/s3-carm2test-wiz-upload/F/D5xCzoPEnEaEzXwgRBePwf4bbNUJfP.zip",
+                    "version": 2,
+                    "ar_contents": [
+                        {
+                            "id": 5,
+                            "ar_target_id": 6,
+                            "ar_content_type": 1,
+                            "name": "content2",
+                            "file": "https://s3-ap-northeast-1.amazonaws.com/s3-carm2test-wiz-upload/g64ZZntLj7GatZaFYGKGEkoT0lcsNw.png",
+                            "random_group_number": null,
+                            "random_setting": null,
+                            "content_size_x": 1,
+                            "content_size_y": 1,
+                            "content_size_z": 1,
+                            "content_position_x": 0,
+                            "content_position_y": 0,
+                            "content_position_z": 0,
+                            "content_rotation_x": 0,
+                            "content_rotation_y": 0,
+                            "content_rotation_z": 0,
+                            "version": 2,
+                            "ar_events": [
+                                {
+                                    "id": 5,
+                                    "ar_content_id": 5,
+                                    "detection_id": 8,
+                                    "ar_event_type": 1,
+                                    "ar_event_action_type": null,
+                                    "ar_event_ease_type": null,
+                                    "event_target_ar_content_id": null,
+                                    "name": "ARコンテンツ表示",
+                                    "file": null,
+                                    "url": null,
+                                    "x": null,
+                                    "y": null,
+                                    "z": null,
+                                    "second": null,
+                                    "delay": null,
+                                    "is_loop": false,
+                                    "is_valid": true,
+                                    "from_valid_period": null,
+                                    "to_valid_period": null,
+                                    "option": null,
+                                    "version": 1,
+                                    "created_user_id": 1,
+                                    "updated_user_id": 1,
+                                    "memo": null,
+                                    "created_at": "2020-05-12 16:29:31",
+                                    "updated_at": "2020-05-12 16:29:31",
+                                    "deleted_at": null
+                                },
+                                {
+                                    "id": 6,
+                                    "ar_content_id": 5,
+                                    "detection_id": 9,
+                                    "ar_event_type": 2,
+                                    "ar_event_action_type": null,
+                                    "ar_event_ease_type": null,
+                                    "event_target_ar_content_id": null,
+                                    "name": "ARコンテンツ非表示",
+                                    "file": null,
+                                    "url": null,
+                                    "x": null,
+                                    "y": null,
+                                    "z": null,
+                                    "second": null,
+                                    "delay": null,
+                                    "is_loop": false,
+                                    "is_valid": true,
+                                    "from_valid_period": null,
+                                    "to_valid_period": null,
+                                    "option": null,
+                                    "version": 1,
+                                    "created_user_id": 1,
+                                    "updated_user_id": 1,
+                                    "memo": null,
+                                    "created_at": "2020-05-12 16:30:54",
+                                    "updated_at": "2020-05-12 16:30:54",
+                                    "deleted_at": null
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "screen_layout": {
+                "id": 19,
+                "has_header": false,
+                "header_background": "#2196F3FF",
+                "header_logo": null,
+                "has_footer": true,
+                "footer_background": "#c7428c",
+                "header_widgets": [],
+                "footer_widgets": [
+                    {
+                        "id": 18,
+                        "screen_layout_id": 19,
+                        "app_func_id": 20,
+                        "display_name": "ホーム",
+                        "display_order": 1,
+                        "font_color": "#FFFFFFFF",
+                        "icon": null,
+                        "image": "https://s3-ap-northeast-1.amazonaws.com/s3-carm2test-wiz-upload/fl1Mo6yIktatV1WeIivXJl9TQso8xR.png"
+                    },
+                    {
+                        "id": 19,
+                        "screen_layout_id": 19,
+                        "app_func_id": 27,
+                        "display_name": "お知らせ",
+                        "display_order": 2,
+                        "font_color": "#FFFFFFFF",
+                        "icon": null,
+                        "image": "https://s3-ap-northeast-1.amazonaws.com/s3-carm2test-wiz-upload/iZzcqnWqwaK37HG0M3vCcZuyEeRh8o.png"
+                    },
+                    {
+                        "id": 20,
+                        "screen_layout_id": 19,
+                        "app_func_id": null,
+                        "display_name": "AR",
+                        "display_order": 3,
+                        "font_color": "#FFFFFFFF",
+                        "icon": null,
+                        "image": "https://s3-ap-northeast-1.amazonaws.com/s3-carm2test-wiz-upload/xbjB2sPHxFKwWjPux3VvkBSAyGe44u.png"
+                    },
+                    {
+                        "id": 21,
+                        "screen_layout_id": 19,
+                        "app_func_id": 28,
+                        "display_name": "お問合せ",
+                        "display_order": 4,
+                        "font_color": "#FFFFFFFF",
+                        "icon": null,
+                        "image": "https://s3-ap-northeast-1.amazonaws.com/s3-carm2test-wiz-upload/DgvKkojKIjhla7PTPQELdcSPOzpOaN.png"
+                    },
+                    {
+                        "id": 22,
+                        "screen_layout_id": 19,
+                        "app_func_id": 21,
+                        "display_name": "アカウント",
+                        "display_order": 5,
+                        "font_color": "#FFFFFFFF",
+                        "icon": null,
+                        "image": "https://s3-ap-northeast-1.amazonaws.com/s3-carm2test-wiz-upload/hiZd5LWYpjm283V2Pnt3C0crOiqrXw.png"
+                    }
+                ],
+                "main_widgets": {
+                    "text_widgets": [],
+                    "image_widgets": [],
+                    "movie_widgets": [],
+                    "button_widgets": [],
+                    "stamp_book_widgets": [],
+                    "stamp_rally_widgets": [],
+                    "point_book_widgets": []
+                }
+            }
+        },
+        {
+            "id": 20,
+            "func_id": 4,
+            "app_id": 3,
+            "name": "京ろまん トップ画面",
+            "browser_type": 3,
+            "url": "https://carmapp.iihansoku.com/CARMCMS/html/kyo-roman/top_carm2.php",
+            "screen_layout": {
+                "id": 18,
+                "has_header": true,
+                "header_background": "#ffffff",
+                "header_logo": "https://s3-ap-northeast-1.amazonaws.com/s3-carm2test-wiz-upload/eUnZxwb7pajk4DtTaQjTcJOwDOmeDG.png",
+                "has_footer": true,
+                "footer_background": "#c7428c",
+                "header_widgets": [],
+                "footer_widgets": [
+                    {
+                        "id": 8,
+                        "screen_layout_id": 18,
+                        "app_func_id": null,
+                        "display_name": "ホーム",
+                        "display_order": 1,
+                        "font_color": "#FFFFFFFF",
+                        "icon": null,
+                        "image": "https://s3-ap-northeast-1.amazonaws.com/s3-carm2test-wiz-upload/5xpJ5oLDJ0Yq8fAf3AhFv6LEgeelZf.png"
+                    },
+                    {
+                        "id": 9,
+                        "screen_layout_id": 18,
+                        "app_func_id": 27,
+                        "display_name": "お知らせ",
+                        "display_order": 2,
+                        "font_color": "#FFFFFFFF",
+                        "icon": null,
+                        "image": "https://s3-ap-northeast-1.amazonaws.com/s3-carm2test-wiz-upload/vfihI8VWSo5uA1pzDtOXmVs6RjfXkS.png"
+                    },
+                    {
+                        "id": 10,
+                        "screen_layout_id": 18,
+                        "app_func_id": 17,
+                        "display_name": "AR",
+                        "display_order": 3,
+                        "font_color": "#FFFFFFFF",
+                        "icon": null,
+                        "image": "https://s3-ap-northeast-1.amazonaws.com/s3-carm2test-wiz-upload/JcfCEXh8iARBme38vIY8MgHYJj8FtG.png"
+                    },
+                    {
+                        "id": 11,
+                        "screen_layout_id": 18,
+                        "app_func_id": 28,
+                        "display_name": "お問合せ",
+                        "display_order": 4,
+                        "font_color": "#FFFFFFFF",
+                        "icon": null,
+                        "image": "https://s3-ap-northeast-1.amazonaws.com/s3-carm2test-wiz-upload/VdVWUIS8b3oAxZkFlQUNRFlgAGFQvO.png"
+                    },
+                    {
+                        "id": 12,
+                        "screen_layout_id": 18,
+                        "app_func_id": 29,
+                        "display_name": "入会情報",
+                        "display_order": 5,
+                        "font_color": "#FFFFFFFF",
+                        "icon": null,
+                        "image": "https://s3-ap-northeast-1.amazonaws.com/s3-carm2test-wiz-upload/I2rw7gEAtcICbEUHl8ezkFguRKrLVN.png"
+                    }
+                ],
+                "main_widgets": {
+                    "text_widgets": [],
+                    "image_widgets": [],
+                    "movie_widgets": [],
+                    "button_widgets": [],
+                    "stamp_book_widgets": [],
+                    "stamp_rally_widgets": [],
+                    "point_book_widgets": []
+                }
+            }
+        },
+        {
+            "id": 21,
+            "func_id": 29,
+            "app_id": 3,
+            "name": "京ろまん 会員情報変更画面",
+            "is_member_attr": true,
+            "screen_layout": null
+        },
+        {
+            "id": 22,
+            "func_id": 4,
+            "app_id": 3,
+            "name": "京ろまん ホームページ",
+            "browser_type": 2,
+            "url": "https://kyo-roman.com/",
+            "screen_layout": null
+        },
+        {
+            "id": 23,
+            "func_id": 4,
+            "app_id": 3,
+            "name": "京ろまん FirstStage ホームページ",
+            "browser_type": 2,
+            "url": "https://www.firststage.co.jp/",
+            "screen_layout": null
+        },
+        {
+            "id": 24,
+            "func_id": 4,
+            "app_id": 3,
+            "name": "京ろまん　waplusnara ホームページ",
+            "browser_type": 2,
+            "url": "https://waplusnara.jp/",
+            "screen_layout": null
+        },
+        {
+            "id": 25,
+            "func_id": 4,
+            "app_id": 3,
+            "name": "京ろまん Ry-El ホームページ",
+            "browser_type": 2,
+            "url": "https://www.ry-el.com/",
+            "screen_layout": null
+        },
+        {
+            "id": 26,
+            "func_id": 4,
+            "app_id": 3,
+            "name": "京ろまん yuinowa ホームページ",
+            "browser_type": 2,
+            "url": "http://www.yuinowa.net/",
+            "screen_layout": null
+        },
+        {
+            "id": 27,
+            "func_id": 4,
+            "app_id": 3,
+            "name": "京ろまん お知らせ",
+            "browser_type": 2,
+            "url": "https://kyo-roman.com/news/",
+            "screen_layout": null
+        },
+        {
+            "id": 28,
+            "func_id": 4,
+            "app_id": 3,
+            "name": "京ろまん お問合せ",
+            "browser_type": 2,
+            "url": "https://kyo-roman.com/contact/",
+            "screen_layout": null
+        },
+        {
+            "id": 29,
+            "func_id": 4,
+            "app_id": 3,
+            "name": "京ろまん 入会情報",
+            "browser_type": 2,
+            "url": "https://kyo-roman.com/member/",
+            "screen_layout": null
+        },
+        {
+            "id": 34,
+            "func_id": 6,
+            "app_id": 3,
+            "name": "aaa",
+            "collection_type": 2,
+            "max_get_count": 4,
+            "use_future_day_collection": null,
+            "is_disp_acquisition_date": false,
+            "screen_layout": null
+        },
+        {
+            "id": 35,
+            "func_id": 5,
+            "app_id": 3,
+            "name": "aff",
+            "collection_type": 1,
+            "max_get_count": null,
+            "use_future_day_collection": null,
+            "is_disp_acquisition_date": false,
+            "screen_layout": {
+                "id": 25,
+                "has_header": false,
+                "header_background": "#2196F3FF",
+                "header_logo": null,
+                "has_footer": false,
+                "footer_background": "#2196F3FF",
+                "header_widgets": [],
+                "footer_widgets": [],
+                "main_widgets": {
+                    "text_widgets": [],
+                    "image_widgets": [],
+                    "movie_widgets": [],
+                    "button_widgets": [],
+                    "stamp_book_widgets": [],
+                    "stamp_rally_widgets": [],
+                    "point_book_widgets": []
+                }
+            }
+        },
+        {
+            "id": 42,
+            "func_id": 4,
+            "app_id": 3,
+            "name": "使用可能店舗",
+            "browser_type": 1,
+            "url": "https://kyo-roman.com/store/",
+            "screen_layout": null
+        },
+        {
+            "id": 99,
+            "func_id": 999,
+            "app_id": 3,
+            "name": "京ろまん クーポン一覧",
+            "screen_layout": {
+                "id": 17,
+                "has_header": true,
+                "header_background": "#ffffff",
+                "header_logo": "https://s3-ap-northeast-1.amazonaws.com/s3-carm2test-wiz-upload/S835yzLSVrIdC8sKf1w2D16RT3QcSC.png",
+                "has_footer": true,
+                "footer_background": "#c7428c",
+                "header_widgets": [
+                    {
+                        "id": 1,
+                        "screen_layout_id": 17,
+                        "location": 1,
+                        "app_func_id": null,
+                        "image": null,
+                        "icon": "0xe5c4"
+                    }
+                ],
+                "footer_widgets": [
+                    {
+                        "id": 13,
+                        "screen_layout_id": 17,
+                        "app_func_id": 14,
+                        "display_name": "ホーム (ログイン必要画面へ)",
+                        "display_order": 1,
+                        "font_color": "#FFFFFFFF",
+                        "icon": null,
+                        "image": "https://s3-ap-northeast-1.amazonaws.com/s3-carm2test-wiz-upload/zdERLjo3TmMzDSXPVikMZpbvvKez1U.png"
+                    },
+                    {
+                        "id": 14,
+                        "screen_layout_id": 17,
+                        "app_func_id": 27,
+                        "display_name": "お知らせ",
+                        "display_order": 2,
+                        "font_color": "#FFFFFFFF",
+                        "icon": null,
+                        "image": "https://s3-ap-northeast-1.amazonaws.com/s3-carm2test-wiz-upload/eHgRM00r26xPtEnFlh234qgQ6OO4qk.png"
+                    },
+                    {
+                        "id": 15,
+                        "screen_layout_id": 17,
+                        "app_func_id": 17,
+                        "display_name": "AR",
+                        "display_order": 3,
+                        "font_color": "#FFFFFFFF",
+                        "icon": null,
+                        "image": "https://s3-ap-northeast-1.amazonaws.com/s3-carm2test-wiz-upload/sup6s740wnJoFO1fXHrqunDcwCzcw7.png"
+                    },
+                    {
+                        "id": 16,
+                        "screen_layout_id": 17,
+                        "app_func_id": 28,
+                        "display_name": "お問合せ",
+                        "display_order": 4,
+                        "font_color": "#FFFFFFFF",
+                        "icon": null,
+                        "image": "https://s3-ap-northeast-1.amazonaws.com/s3-carm2test-wiz-upload/EzLRzBL1TXDs0eUoJc369oHQG1JGD3.png"
+                    },
+                    {
+                        "id": 17,
+                        "screen_layout_id": 17,
+                        "app_func_id": 21,
+                        "display_name": "アカウント",
+                        "display_order": 5,
+                        "font_color": "#FFFFFFFF",
+                        "icon": null,
+                        "image": "https://s3-ap-northeast-1.amazonaws.com/s3-carm2test-wiz-upload/5xZhywSjiOJLONidi9pnkTzbvjyYtU.png"
+                    }
+                ],
+                "main_widgets": {
+                    "text_widgets": [],
+                    "image_widgets": [],
+                    "movie_widgets": [],
+                    "button_widgets": [],
+                    "stamp_book_widgets": [],
+                    "stamp_rally_widgets": [],
+                    "point_book_widgets": []
+                }
+            }
+        }
+    ]
+}
