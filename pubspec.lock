@@ -26,9 +26,9 @@ packages:
     dependency: transitive
     description:
       path: "."
-      ref: develop
-      resolved-ref: "3f3c13c52cca8be0d426cb4b7cecba3be6fbaca4"
-      url: "https://github.com/wizexample/arcore_flutter_plugin"
+      ref: e269160e896d451b37964c0cb2aa218e42c1971c
+      resolved-ref: e269160e896d451b37964c0cb2aa218e42c1971c
+      url: "https://github.com/wiz-develop/arcore_flutter_plugin"
     source: git
     version: "0.0.4"
   args:
@@ -124,8 +124,8 @@ packages:
     description:
       path: "."
       ref: HEAD
-      resolved-ref: "7d39beb4777c66d270896230c667e3ad9a27ea8c"
-      url: "https://github.com/chwiz143/CARM2_APP_BASE"
+      resolved-ref: dd29d8e23fbaf26d4e55b0c8a7b7211d340e18b2
+      url: "https://github.com/wiz-develop/CARM2_APP_BASE"
     source: git
     version: "0.0.1"
   charcode:
@@ -697,7 +697,7 @@ packages:
       name: webview_flutter
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.3.17"
+    version: "0.3.22+1"
   xml:
     dependency: transitive
     description:
