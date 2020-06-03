@@ -25,6 +25,7 @@ dependencies:
   cupertino_icons: ^0.1.2
 
   # CARM2 base plugin
+  # test
   carm2_base:
     git:
       url: "https://github.com/wiz-develop/CARM2_APP_BASE"
