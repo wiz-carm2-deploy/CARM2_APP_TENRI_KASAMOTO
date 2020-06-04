@@ -27,7 +27,8 @@ dependencies:
   # CARM2 base plugin
   carm2_base:
     git:
-      url: "https://github.com/wiz-develop/CARM2_APP_BASE"
+      url: "https://github.com/wiz-develop/CARM2_APP"
+      ref: "merge_carm2_base"
 
 dev_dependencies:
   flutter_test:
