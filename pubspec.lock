@@ -123,9 +123,9 @@ packages:
     dependency: "direct main"
     description:
       path: "."
-      ref: HEAD
-      resolved-ref: dd29d8e23fbaf26d4e55b0c8a7b7211d340e18b2
-      url: "https://github.com/wiz-develop/CARM2_APP_BASE"
+      ref: merge_carm2_base
+      resolved-ref: "4586847b7da99d35f69f72df991508b8c7f9426b"
+      url: "https://github.com/wiz-develop/CARM2_APP"
     source: git
     version: "0.0.1"
   charcode:
