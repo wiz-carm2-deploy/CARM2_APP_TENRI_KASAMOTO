@@ -1,4 +1,3 @@
-import 'package:carm2_base/app/app_functions/login_service/service/login_service.dart';
 import 'package:carm2_base/app/blocs/navigation_bloc.dart';
 import 'package:carm2_base/app/resources/models/app_func.dart';
 import 'package:carm2_base/app/services/abstract_app_func_service.dart';
@@ -18,11 +17,8 @@ void main() => runApp(Carm2Base(
         themeData: ThemeData(
           primarySwatch: Colors.red,
         ),
-        splashScreen: TestSplashScreen(),
-        appFuncServicesOverrides: [
-          CustomWebViewService(),
-          DisabledAppFuncService(LoginService.FUNC_ID),
-        ],
+        splashScreen: Carm2SplashScreen(),
+        appFuncServicesOverrides: [],
       ),
     ).start());
 
@@ -52,31 +48,7 @@ class KyoromanColors {
   static const purpleContrastColor = const Color(0xFF56D194);
 }
 
-class KyoromanSplashScreen extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return SafeArea(
-      child: Scaffold(
-        body: Stack(
-          children: <Widget>[
-            Container(
-              constraints: BoxConstraints.expand(),
-              child: Image.asset(
-                'assets/kyoroman/kyoroman_splash.png',
-                fit: BoxFit.cover,
-              ),
-            ),
-            Align(
-                alignment: Alignment.bottomCenter,
-                child: LinearProgressIndicator()),
-          ],
-        ),
-      ),
-    );
-  }
-}
-
-class TestSplashScreen extends StatelessWidget {
+class Carm2SplashScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SafeArea(
@@ -96,8 +68,9 @@ class TestSplashScreen extends StatelessWidget {
               ),
             ),
             Align(
-                alignment: Alignment.bottomCenter,
-                child: LinearProgressIndicator()),
+              alignment: Alignment.bottomCenter,
+              child: LinearProgressIndicator(),
+            ),
           ],
         ),
       ),
@@ -105,28 +78,7 @@ class TestSplashScreen extends StatelessWidget {
   }
 }
 
-class DisabledAppFuncService implements AbstractAppFuncService {
-  final int funcId;
-
-  DisabledAppFuncService(this.funcId);
-
-  @override
-  int getFuncId() => funcId;
-
-  @override
-  void open(AppFunc appFunc) {
-    // TODO: implement open
-  }
-
-  @override
-  void setNavigationSink(Sink<NavigationRequest> navigationSink) {
-    // TODO: implement setNavigationSink
-  }
-
-}
-
-
-class CustomWebViewService implements AbstractAppFuncService {
+class ExampleCustomWebViewService implements AbstractAppFuncService {
   static const int FUNC_ID = 2;
 
   AppFunc appFunc;
