@@ -34,6 +34,17 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
 
+  flutter_launcher_icons: ^0.7.4
+  # >flutter pub get
+  # >flutter pub run flutter_launcher_icons:main
+
+flutter_icons:
+  android: true 
+  ios: true
+  image_path: "assets/icon/kyo-roman_icon.png"
+  adaptive_icon_foreground: "assets/icon/kyo-roman_android_adaptive.png"
+  adaptive_icon_background: "#FFFFFF"
+
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

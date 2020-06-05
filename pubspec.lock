@@ -250,7 +250,7 @@ packages:
     source: hosted
     version: "0.11.1"
   flutter_launcher_icons:
-    dependency: transitive
+    dependency: "direct dev"
     description:
       name: flutter_launcher_icons
       url: "https://pub.dartlang.org"
