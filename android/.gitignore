@@ -5,3 +5,8 @@ gradle-wrapper.jar
 /gradlew.bat
 /local.properties
 GeneratedPluginRegistrant.java
+
+# for release signing
+key.properties
+# for apps using old carm keystore
+carm_key.properties 
