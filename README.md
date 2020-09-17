@@ -25,7 +25,7 @@ git clone https://github.com/wiz-develop/CARM2_APP_TEMPLATE.git １.で作成し
 ```
 3. プロジェクトのリモートリポにテンプレートを反映
 ```
-cd １.で作成した個別のリモートリポ名
+cd 2.のプロジェクト名
 
 git remote rename origin upstream
 
