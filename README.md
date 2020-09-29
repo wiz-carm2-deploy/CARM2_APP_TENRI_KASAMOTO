@@ -31,6 +31,8 @@ git remote rename origin upstream
 
 git remote add origin 1.で作成したリモートリポURL 
 
+プロジェクトの権限(setting→manage access)を付与する
+
 git push -u origin master
 ```
 
