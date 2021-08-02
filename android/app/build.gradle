@@ -91,6 +91,12 @@ dependencies {
 
     // added this because it was in flutter demo app, not sure why..
     implementation 'com.google.firebase:firebase-core:16.0.1'
+
+    // fix play console build rejection https://github.com/wiz-develop/CARM2_APP/issues/1327
+    // flutter stripe_payment プラグインの 1.0.9 に利用される
+    // implementation 'com.stripe:stripe-android:10.4.6' をここで上書きする
+    // https://github.com/stripe/stripe-android/blob/master/CHANGELOG.md#1050---2020-05-15
+    implementation 'com.stripe:stripe-android:10.5.0'
 }
 
 apply plugin: 'com.google.gms.google-services'
