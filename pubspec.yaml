@@ -26,9 +26,25 @@ dependencies:
 
   # CARM2 base plugin
   carm2_base:
+    # git:
+    #   url: "https://github.com/wiz-develop/CARM2_APP"
+    #   ref: "develop"
+    path: ../CARM2_APP/
+
+
+dependency_overrides:
+  arkit_plugin:
     git:
-      url: "https://github.com/wiz-develop/CARM2_APP"
-      ref: "develop"
+      url: "https://github.com/wiz-develop/arkit_flutter_plugin.git"
+      ref: "REMOVE_AR"
+  arcore_flutter_plugin:
+    git:
+      url: "https://github.com/wiz-develop/arcore_flutter_plugin"
+      ref: "REMOVE_AR"
+  artoolkit_flutter_plugin:
+    git:
+      url: "https://wiznet.backlog.jp/git/CARM/artoolkit_flutter_plugin.git"
+      ref: "REMOVE_AR"
 
 dev_dependencies:
   flutter_test:
@@ -41,8 +57,8 @@ dev_dependencies:
 flutter_icons:
   android: true 
   ios: true
-  image_path: "assets/icon/kyo-roman_icon.png"
-  adaptive_icon_foreground: "assets/icon/kyo-roman_android_adaptive.png"
+  image_path: "assets/icon/icon.png"
+  adaptive_icon_foreground: "assets/icon/icon_adaptive.png"
   adaptive_icon_background: "#FFFFFF"
 
 
@@ -64,7 +80,9 @@ flutter:
    - assets/garage/
    - assets/kyoroman/
   # test, from kindai cafe app
-   - assets/payment/  
+   - assets/payment/
+   - assets/splash/
+   - assets/icon/
 
 
   # To add assets to your application, add an assets section, like this:
