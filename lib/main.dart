@@ -1,22 +1,28 @@
+import 'package:carm2_base/app/ui/widgets/app_version_widget.dart';
 import 'package:carm2_base/carm2_base.dart';
 import 'package:flutter/material.dart';
+import 'package:test_app/app/app_functions/login_service/service/login_service.dart';
 
 void main() => runApp(Carm2Base(
       configuration: Carm2Configuration(
         appSettings: AppSettings(
-          appId: 3,
-          appName: '京ろまん',
+          appId: 1,
+          appName: '都アプリ',
+          // backendBaseUrl:
+          //     'https://dev014.carm2-app.wiz-services.com/CARM2CMS/client/',
           backendBaseUrl:
-              'https://api.carm2test.wiz-services.com/CARM2CMS/api/',
-          apiTimeoutDuration: const Duration(seconds: 30),
+              'https://carm2-app.mykpht.com/CARM2CMS/client/',
+          apiTimeoutDuration: const Duration(seconds: 120),
           useDummyData: false,
           dummyAppDataPath: 'test_resources/kyoroman_app_data.json',
         ),
         themeData: ThemeData(
           primarySwatch: Carm2Colors.grey,
         ),
-        splashScreen: Carm2SplashScreen(),
-        appFuncServicesOverrides: [],
+        splashScreen: SplashScreen(),
+        appFuncServicesOverrides: [
+          CustomLoginService()
+        ],
       ),
     ).start());
 
@@ -49,21 +55,27 @@ class Carm2Colors {
   static const int _carm2colorsAccentValue = 0xFFFFFFFF;
 }
 
-class Carm2SplashScreen extends StatelessWidget {
+class SplashScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
+        backgroundColor: Colors.white,
         body: Stack(
           children: <Widget>[
             Container(
               constraints: BoxConstraints.expand(),
+              // decoration: BoxDecoration(
+              //   image: DecorationImage(
+              //     image: AssetImage('assets/splash/karto_splash.png'),
+              //     fit: BoxFit.cover,
+              //   ),
+              // ),
               child: Center(
-                child: Text(
-                  'CARM2',
-                  style: TextStyle(
-                    fontSize: 18.0,
-                    color: Colors.black,
+                child: Container(
+                  padding: EdgeInsets.symmetric(vertical: 30, horizontal: 30.0),
+                  child: Image.asset(
+                    'assets/splash/splash.png',
                   ),
                 ),
               ),
@@ -71,6 +83,13 @@ class Carm2SplashScreen extends StatelessWidget {
             Align(
               alignment: Alignment.bottomCenter,
               child: LinearProgressIndicator(),
+            ),
+            Align(
+              alignment: Alignment.bottomRight,
+              child: Padding(
+                padding: const EdgeInsets.only(bottom: 4.0, right: 4.0),
+                child: AppVersionWidget(),
+              ),
             ),
           ],
         ),
