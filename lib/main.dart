@@ -1,7 +1,6 @@
 import 'package:carm2_base/app/ui/widgets/app_version_widget.dart';
 import 'package:carm2_base/carm2_base.dart';
 import 'package:flutter/material.dart';
-import 'package:test_app/app/app_functions/attributes_editor/service/attribute_editor_service.dart';
 import 'package:test_app/app/app_functions/login_service/service/login_service.dart';
 
 void main() => runApp(Carm2Base(
@@ -9,18 +8,20 @@ void main() => runApp(Carm2Base(
         appSettings: AppSettings(
           appId: 1,
           appName: '都アプリ',
-          backendBaseUrl: 'https://carm2-app.mykpht.com/CARM2CMS/client/',
+          // backendBaseUrl:
+          //     'https://dev014.carm2-app.wiz-services.com/CARM2CMS/client/',
+          backendBaseUrl:
+              'https://carm2-app.mykpht.com/CARM2CMS/client/',
           apiTimeoutDuration: const Duration(seconds: 120),
           useDummyData: false,
           dummyAppDataPath: 'test_resources/kyoroman_app_data.json',
         ),
         themeData: ThemeData(
-          primarySwatch: Carm2Colors.frogColor,
+          primarySwatch: Carm2Colors.grey,
         ),
         splashScreen: SplashScreen(),
         appFuncServicesOverrides: [
-          CustomLoginService(),
-          CustomAttributeEditorService(),
+          CustomLoginService()
         ],
       ),
     ).start());
@@ -29,29 +30,29 @@ void main() => runApp(Carm2Base(
 /// 下記のサイトから自動作成できる
 /// http://mcg.mbitson.com/#!?mcgpalette0=%233f51b5
 class Carm2Colors {
-  static const MaterialColor frogColor =
-      MaterialColor(_mcgpalette0PrimaryValue, <int, Color>{
-    50: Color(0xFFE5F6F3),
-    100: Color(0xFFBFE9E0),
-    200: Color(0xFF94DACC),
-    300: Color(0xFF69CBB8),
-    400: Color(0xFF48BFA8),
-    500: Color(_mcgpalette0PrimaryValue),
-    600: Color(0xFF24AD91),
-    700: Color(0xFF1EA486),
-    800: Color(0xFF189C7C),
-    900: Color(0xFF0F8C6B),
+  static const MaterialColor grey =
+      MaterialColor(_carm2colorsPrimaryValue, <int, Color>{
+    50: Color(0xFFF7F7F7),
+    100: Color(0xFFEAEAEA),
+    200: Color(0xFFDDDDDD),
+    300: Color(0xFFCFCFCF),
+    400: Color(0xFFC4C4C4),
+    500: Color(_carm2colorsPrimaryValue),
+    600: Color(0xFFB3B3B3),
+    700: Color(0xFFABABAB),
+    800: Color(0xFFA3A3A3),
+    900: Color(0xFF949494),
   });
-  static const int _mcgpalette0PrimaryValue = 0xFF28B499;
+  static const int _carm2colorsPrimaryValue = 0xFFBABABA;
 
-  static const MaterialColor mcgpalette0Accent =
-      MaterialColor(_mcgpalette0AccentValue, <int, Color>{
-    100: Color(0xFFBEFFEC),
-    200: Color(_mcgpalette0AccentValue),
-    400: Color(0xFF58FFCD),
-    700: Color(0xFF3EFFC6),
+  static const MaterialColor carm2colorsAccent =
+      MaterialColor(_carm2colorsAccentValue, <int, Color>{
+    100: Color(0xFFFFFFFF),
+    200: Color(_carm2colorsAccentValue),
+    400: Color(0xFFFFCCCC),
+    700: Color(0xFFFFB3B3),
   });
-  static const int _mcgpalette0AccentValue = 0xFF8BFFDC;
+  static const int _carm2colorsAccentValue = 0xFFFFFFFF;
 }
 
 class SplashScreen extends StatelessWidget {
