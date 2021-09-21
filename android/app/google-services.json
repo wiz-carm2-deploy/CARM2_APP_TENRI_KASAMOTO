@@ -10,7 +10,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:1059277386195:android:e38cb754f3d1f4e37b3f26",
         "android_client_info": {
-          "package_name": "carm2.karto.dev"
+          "package_name": "com.example.test_app"
         }
       },
       "oauth_client": [
