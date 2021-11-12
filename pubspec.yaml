@@ -26,9 +26,10 @@ dependencies:
 
   # CARM2 base plugin
   carm2_base:
-    git:
-      url: "https://github.com/wiz-develop/CARM2_APP"
-      ref: "develop"
+    path: "../CARM2_APP"
+#    git:
+#      url: "https://github.com/wiz-develop/CARM2_APP"
+#      ref: "develop"
 
 dev_dependencies:
   flutter_test:
@@ -64,7 +65,8 @@ flutter:
    - assets/garage/
    - assets/kyoroman/
   # test, from kindai cafe app
-   - assets/payment/  
+   - assets/payment/
+   - test_resources/
 
 
   # To add assets to your application, add an assets section, like this:

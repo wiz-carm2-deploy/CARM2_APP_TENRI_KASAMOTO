@@ -7,9 +7,9 @@ void main() => runApp(Carm2Base(
           appId: 3,
           appName: '京ろまん',
           backendBaseUrl:
-              'https://api.carm2test.wiz-services.com/CARM2CMS/api/',
+              'https://api.carm2test.wiz-services.com/CARM2CMS/client/',
           apiTimeoutDuration: const Duration(seconds: 30),
-          useDummyData: false,
+          useDummyData: true,
           dummyAppDataPath: 'test_resources/kyoroman_app_data.json',
         ),
         themeData: ThemeData(

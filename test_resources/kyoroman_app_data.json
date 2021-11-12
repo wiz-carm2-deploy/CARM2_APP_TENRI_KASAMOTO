@@ -67,6 +67,44 @@
             ]
         },
         {
+            "id": 108,
+            "name": "かざすと1ポイント_ARターゲット発見",
+            "app_id": 3,
+            "detection_conditions": [
+                {
+                    "id": 6,
+                    "detection_id": 108,
+                    "detection_pattern": 1,
+                    "valid_weekday": null,
+                    "from_valid_timezone": null,
+                    "to_valid_timezone": null,
+                    "longitude": null,
+                    "latitude": null,
+                    "range": null,
+                    "ar_target_id": 106
+                }
+            ]
+        },
+        {
+            "id": 109,
+            "name": "かざすと1ポイント_ARターゲット喪失",
+            "app_id": 3,
+            "detection_conditions": [
+                {
+                    "id": 12,
+                    "detection_id": 109,
+                    "detection_pattern": 2,
+                    "valid_weekday": null,
+                    "from_valid_timezone": null,
+                    "to_valid_timezone": null,
+                    "longitude": null,
+                    "latitude": null,
+                    "range": null,
+                    "ar_target_id": 106
+                }
+            ]
+        },
+        {
             "id": 10,
             "name": "ぬりえ1_ARターゲット発見",
             "app_id": 3,
@@ -340,9 +378,13 @@
                     ],
                     "movie_widgets": [],
                     "button_widgets": [],
-                    "stamp_book_widgets": [],
+                    "scroll_widgets": [],
+                    "web_view_widgets": [],
+                    "mypage_widgets": [],
                     "stamp_rally_widgets": [],
-                    "point_book_widgets": []
+                    "stamp_book_widgets": [],
+                    "point_book_widgets": [],
+                    "carousel_widgets": []
                 }
             }
         },
@@ -457,9 +499,13 @@
                             "icon": null
                         }
                     ],
-                    "stamp_book_widgets": [],
+                    "scroll_widgets": [],
+                    "web_view_widgets": [],
+                    "mypage_widgets": [],
                     "stamp_rally_widgets": [],
-                    "point_book_widgets": []
+                    "stamp_book_widgets": [],
+                    "point_book_widgets": [],
+                    "carousel_widgets": []
                 }
             }
         },
@@ -611,9 +657,13 @@
                             "icon": null
                         }
                     ],
-                    "stamp_book_widgets": [],
+                    "scroll_widgets": [],
+                    "web_view_widgets": [],
+                    "mypage_widgets": [],
                     "stamp_rally_widgets": [],
-                    "point_book_widgets": []
+                    "stamp_book_widgets": [],
+                    "point_book_widgets": [],
+                    "carousel_widgets": []
                 }
             }
         },
@@ -628,23 +678,23 @@
                     "app_func_ar_camera_id": 3,
                     "ar_type": 1,
                     "ar_target_recognition": null,
-                    "name": "かざすと5ポイント",
+                    "name": "movie",
                     "marker_file_base_name": "ar_1point",
-                    "image": "https://s3-ap-northeast-1.amazonaws.com/s3-carm2test-wiz-upload/D5xCzoPEnEaEzXwgRBePwf4bbNUJfP.png",
+                    "image": "https://multi-angle.s3.ap-northeast-1.amazonaws.com/test/markers/blobfish.jpg",
                     "zip": "https://s3-ap-northeast-1.amazonaws.com/s3-carm2test-wiz-upload/F/D5xCzoPEnEaEzXwgRBePwf4bbNUJfP.zip",
                     "version": 2,
                     "ar_contents": [
                         {
                             "id": 5,
                             "ar_target_id": 6,
-                            "ar_content_type": 1,
-                            "name": "content2",
-                            "file": "https://s3-ap-northeast-1.amazonaws.com/s3-carm2test-wiz-upload/g64ZZntLj7GatZaFYGKGEkoT0lcsNw.png",
+                            "ar_content_type": 4,
+                            "name": "blobfish",
+                            "file": "https://multi-angle.s3.ap-northeast-1.amazonaws.com/test/movies/blobfish.mp4",
                             "random_group_number": null,
                             "random_setting": null,
-                            "content_size_x": 1,
-                            "content_size_y": 1,
-                            "content_size_z": 1,
+                            "content_size_x": 0.5,
+                            "content_size_y": 0.5,
+                            "content_size_z": 0.5,
                             "content_position_x": 0,
                             "content_position_y": 0,
                             "content_position_z": 0,
@@ -686,6 +736,99 @@
                                     "id": 6,
                                     "ar_content_id": 5,
                                     "detection_id": 9,
+                                    "ar_event_type": 2,
+                                    "ar_event_action_type": null,
+                                    "ar_event_ease_type": null,
+                                    "event_target_ar_content_id": null,
+                                    "name": "ARコンテンツ非表示",
+                                    "file": null,
+                                    "url": null,
+                                    "x": null,
+                                    "y": null,
+                                    "z": null,
+                                    "second": null,
+                                    "delay": null,
+                                    "is_loop": false,
+                                    "is_valid": true,
+                                    "from_valid_period": null,
+                                    "to_valid_period": null,
+                                    "option": null,
+                                    "version": 1,
+                                    "created_user_id": 1,
+                                    "updated_user_id": 1,
+                                    "memo": null,
+                                    "created_at": "2020-05-12 16:30:54",
+                                    "updated_at": "2020-05-12 16:30:54",
+                                    "deleted_at": null
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 106,
+                    "app_func_ar_camera_id": 3,
+                    "ar_type": 6,
+                    "ar_target_recognition": null,
+                    "name": "nurie",
+                    "marker_file_base_name": "ar_1point",
+                    "image": "https://multi-angle.s3.ap-northeast-1.amazonaws.com/test/markers/supra.png",
+                    "zip": "https://s3-ap-northeast-1.amazonaws.com/s3-carm2test-wiz-upload/F/D5xCzoPEnEaEzXwgRBePwf4bbNUJfP.zip",
+                    "version": 2,
+                    "ar_contents": [
+                        {
+                            "id": 105,
+                            "ar_target_id": 106,
+                            "ar_content_type": 3,
+                            "name": "ぬりえ",
+                            "file": "https://multi-angle.s3.ap-northeast-1.amazonaws.com/test/models/supra2.zip",
+                            "asset_name": "supra2",
+                            "random_group_number": null,
+                            "random_setting": null,
+                            "content_size_x": 0.5,
+                            "content_size_y": 0.5,
+                            "content_size_z": 0.5,
+                            "content_position_x": 0,
+                            "content_position_y": 0,
+                            "content_position_z": 0,
+                            "content_rotation_x": 0,
+                            "content_rotation_y": -1.57,
+                            "content_rotation_z": -1.57,
+                            "version": 2,
+                            "ar_events": [
+                                {
+                                    "id": 105,
+                                    "ar_content_id": 105,
+                                    "detection_id": 108,
+                                    "ar_event_type": 1,
+                                    "ar_event_action_type": null,
+                                    "ar_event_ease_type": null,
+                                    "event_target_ar_content_id": null,
+                                    "name": "ARコンテンツ表示",
+                                    "file": null,
+                                    "url": null,
+                                    "x": null,
+                                    "y": null,
+                                    "z": null,
+                                    "second": null,
+                                    "delay": null,
+                                    "is_loop": false,
+                                    "is_valid": true,
+                                    "from_valid_period": null,
+                                    "to_valid_period": null,
+                                    "option": null,
+                                    "version": 1,
+                                    "created_user_id": 1,
+                                    "updated_user_id": 1,
+                                    "memo": null,
+                                    "created_at": "2020-05-12 16:29:31",
+                                    "updated_at": "2020-05-12 16:29:31",
+                                    "deleted_at": null
+                                },
+                                {
+                                    "id": 106,
+                                    "ar_content_id": 105,
+                                    "detection_id": 109,
                                     "ar_event_type": 2,
                                     "ar_event_action_type": null,
                                     "ar_event_ease_type": null,
@@ -778,12 +921,41 @@
                 ],
                 "main_widgets": {
                     "text_widgets": [],
-                    "image_widgets": [],
+                    "image_widgets": [
+                        {
+                            "id": 1,
+                            "screen_layout_id": 19,
+                            "app_func_id": null,
+                            "display_name": "静止画撮影",
+                            "display_order": 3,
+                            "width": 10,
+                            "height": 10,
+                            "left": 80,
+                            "top": 80,
+                            "image": "https://multi-angle.s3.ap-northeast-1.amazonaws.com/test/icons/photo.png"
+                        },
+                        {
+                            "id": 2,
+                            "screen_layout_id": 19,
+                            "app_func_id": null,
+                            "display_name": "ぬりえ取り込み",
+                            "display_order": 3,
+                            "width": 10,
+                            "height": 10,
+                            "left": 80,
+                            "top": 70,
+                            "image": "https://multi-angle.s3.ap-northeast-1.amazonaws.com/test/icons/nurie.png"
+                        }
+                    ],
                     "movie_widgets": [],
                     "button_widgets": [],
-                    "stamp_book_widgets": [],
+                    "scroll_widgets": [],
+                    "web_view_widgets": [],
+                    "mypage_widgets": [],
                     "stamp_rally_widgets": [],
-                    "point_book_widgets": []
+                    "stamp_book_widgets": [],
+                    "point_book_widgets": [],
+                    "carousel_widgets": []
                 }
             }
         },
@@ -859,9 +1031,13 @@
                     "image_widgets": [],
                     "movie_widgets": [],
                     "button_widgets": [],
-                    "stamp_book_widgets": [],
+                    "scroll_widgets": [],
+                    "web_view_widgets": [],
+                    "mypage_widgets": [],
                     "stamp_rally_widgets": [],
-                    "point_book_widgets": []
+                    "stamp_book_widgets": [],
+                    "point_book_widgets": [],
+                    "carousel_widgets": []
                 }
             }
         },
@@ -979,9 +1155,13 @@
                     "image_widgets": [],
                     "movie_widgets": [],
                     "button_widgets": [],
+                    "scroll_widgets": [],
+                    "web_view_widgets": [],
+                    "mypage_widgets": [],
                     "stamp_book_widgets": [],
                     "stamp_rally_widgets": [],
-                    "point_book_widgets": []
+                    "point_book_widgets": [],
+                    "carousel_widgets": []
                 }
             }
         },
@@ -1073,9 +1253,13 @@
                     "image_widgets": [],
                     "movie_widgets": [],
                     "button_widgets": [],
+                    "scroll_widgets": [],
+                    "web_view_widgets": [],
+                    "mypage_widgets": [],
                     "stamp_book_widgets": [],
                     "stamp_rally_widgets": [],
-                    "point_book_widgets": []
+                    "point_book_widgets": [],
+                    "carousel_widgets": []
                 }
             }
         }

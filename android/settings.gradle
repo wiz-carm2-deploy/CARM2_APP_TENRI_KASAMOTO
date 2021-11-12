@@ -9,7 +9,15 @@ if (pluginsFile.exists()) {
 }
 
 plugins.each { name, path ->
+    println ("- $name, $path")
     def pluginDirectory = flutterProjectRoot.resolve(path).resolve('android').toFile()
     include ":$name"
     project(":$name").projectDir = pluginDirectory
+    if (name == "ar_unity_plugin") {
+        println("-- $pluginDirectory")
+        def unityDir = flutterProjectRoot.resolve(path).resolve('android/unityLibrary').toFile()
+        include ":unityLibrary"
+        project(":unityLibrary").projectDir = unityDir
+    }
 }
+
