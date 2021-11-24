@@ -9,7 +9,7 @@ packages:
     source: hosted
     version: "3.1.6"
   arcore_flutter_plugin:
-    dependency: "direct overridden"
+    dependency: transitive
     description:
       path: "."
       ref: REMOVE_AR
@@ -25,7 +25,7 @@ packages:
     source: hosted
     version: "2.3.0"
   arkit_plugin:
-    dependency: "direct overridden"
+    dependency: transitive
     description:
       path: "."
       ref: REMOVE_AR
@@ -34,7 +34,7 @@ packages:
     source: git
     version: "0.3.1"
   artoolkit_flutter_plugin:
-    dependency: "direct overridden"
+    dependency: transitive
     description:
       path: "."
       ref: REMOVE_AR
