@@ -9,9 +9,10 @@ import flutter_unity_widget
     _ application: UIApplication,
     didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?
   ) -> Bool {
+    // google map プラグインに必要
     GMSServices.provideAPIKey("AIzaSyCqnSHSA8FmovXP3KDtJ8YqgJ6O7vSRpx4")
     InitUnityIntegrationWithOptions(argc: CommandLine.argc, argv: CommandLine.unsafeArgv, launchOptions)
-    
+
     GeneratedPluginRegistrant.register(with: self)
     return super.application(application, didFinishLaunchingWithOptions: launchOptions)
   }

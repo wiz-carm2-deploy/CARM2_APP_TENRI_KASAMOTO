@@ -24,6 +24,8 @@ if (flutterVersionName == null) {
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
+// for push notification (flutter_messaging)
+apply plugin: 'com.google.gms.google-services'
 
 def keystoreProperties = new Properties()
 def keystorePropertiesFile = rootProject.file('carm_key.properties')
@@ -35,30 +37,29 @@ android {
     compileSdkVersion 30
 
     compileOptions {
-        sourceCompatibility 1.8
-        targetCompatibility 1.8
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = '1.8'
     }
 
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
     }
 
-    lintOptions {
-        disable 'InvalidPackage'
-    }
-
     defaultConfig {
-        applicationId "com.example.test_app"
+        applicationId "jp.co.wiznet.carm2.app"
         minSdkVersion 24
         targetSdkVersion 30
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
-        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
 
-        multiDexEnabled true
-        ndk {
-            abiFilters 'arm64-v8a', 'armeabi-v7a'
-        }
+        // UNITY ARプラグインに必要
+         ndk {
+             abiFilters 'armeabi-v7a', 'arm64-v8a'
+         }
     }
 
     signingConfigs {
@@ -78,6 +79,9 @@ android {
    packagingOptions {
        pickFirst '**/*.so'
    }
+
+    // UNITY ARプラグインに必要
+    ndkVersion "20.0.5594570"
 }
 
 flutter {
@@ -86,24 +90,4 @@ flutter {
 
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
-    testImplementation 'junit:junit:4.12'
-    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.0'
-
-    // Provides ArFragment, and other UX resources.
-//    implementation 'com.google.ar.sceneform.ux:sceneform-ux:1.14.0'
-
-    // Alternatively, use ArSceneView without the UX dependency.
-//    implementation 'com.google.ar.sceneform:core:1.14.0'
-
-    // added this because it was in flutter demo app, not sure why..
-    implementation 'com.google.firebase:firebase-core:16.0.1'
-
-    // fix play console build rejection https://github.com/wiz-develop/CARM2_APP/issues/1327
-    // flutter stripe_payment プラグインの 1.0.9 に利用される
-    // implementation 'com.stripe:stripe-android:10.4.6' をここで上書きする
-    // https://github.com/stripe/stripe-android/blob/master/CHANGELOG.md#1050---2020-05-15
-    implementation 'com.stripe:stripe-android:10.5.0'
 }
-
-apply plugin: 'com.google.gms.google-services'

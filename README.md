@@ -1,6 +1,6 @@
 # CARM2 アプリテンプレート
 
-flutter version `v1.12.13+hotfix.9` で作成されたプロジェクトです。
+flutter version `Channel stable, 2.5.2` で作成されたプロジェクトです。
 (kotlin/swiftベース)
 
 ## ここで対応できるアプリ設定

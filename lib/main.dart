@@ -1,24 +1,40 @@
+// @dart=2.9
+
+import 'package:carm2_base/app/ui/widgets/app_version_widget.dart';
 import 'package:carm2_base/carm2_base.dart';
 import 'package:flutter/material.dart';
 
-void main() => runApp(Carm2Base(
-      configuration: Carm2Configuration(
-        appSettings: AppSettings(
-          appId: 3,
-          appName: '京ろまん',
-          backendBaseUrl:
-              'https://api.carm2test.wiz-services.com/CARM2CMS/client/',
-          apiTimeoutDuration: const Duration(seconds: 30),
-          useDummyData: true,
-          dummyAppDataPath: 'test_resources/kyoroman_app_data.json',
-        ),
-        themeData: ThemeData(
-          primarySwatch: Carm2Colors.grey,
-        ),
-        splashScreen: Carm2SplashScreen(),
-        appFuncServicesOverrides: [],
+void main() {
+  WidgetsFlutterBinding.ensureInitialized();
+  runApp(Carm2Base(
+    configuration: Carm2Configuration(
+      appSettings: AppSettings(
+        appId: 3,
+        appName: 'CARM2 デモ',
+        backendBaseUrl:
+            'http://dev005.carm2-app.wiz-services.com/CARM2CMS/client/',
+        apiTimeoutDuration: const Duration(seconds: 30),
+        useDummyData: false,
+        dummyAppDataPath: 'test_resources/kyoroman_app_data.json',
+        drawerMenuIconLabel: 'メニュー',
       ),
-    ).start());
+      paymentSettings: PaymentSettings(
+        paymentPlatform: PaymentPlatform.stripe,
+        paymentEnvironment: PaymentEnvironment.test,
+        testStripePublishableKey:
+            'pk_test_51HZ8rQEC70qfpFdBFoTG5GKXtV0nfYj92EgE8QWPrWIbTyhvIcqbrwk4qFkSvdvLJdBoogj0qmmhIqxikKQkpUTV00WOeeN6ew',
+        productionStripePublishableKey:
+            'pk_live_51HSZfhFZO0kg0q2qyJHSWZhrx9nlmNN6vuIicVM9mBwkEpBLkF0WV7pOIXE45p1oUxY9RyRQLNc0EL6hYVhIYc9s00UFrZYowV',
+        enableSavedCards: false,
+      ),
+      themeData: ThemeData(
+        primarySwatch: Carm2Colors.grey,
+      ),
+      splashScreen: const SplashScreen(),
+      appFuncServicesOverrides: [],
+    ),
+  ).start());
+}
 
 /// カスタム[MaterialColor]の例
 /// 下記のサイトから自動作成できる
@@ -49,26 +65,53 @@ class Carm2Colors {
   static const int _carm2colorsAccentValue = 0xFFFFFFFF;
 }
 
-class Carm2SplashScreen extends StatelessWidget {
+class SplashScreen extends StatelessWidget {
+  const SplashScreen({Key key}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
+        backgroundColor: Colors.white,
         body: Stack(
           children: <Widget>[
             Container(
-              constraints: BoxConstraints.expand(),
+              constraints: const BoxConstraints.expand(),
               child: Center(
-                child: Text(
-                  'CARM2',
-                  style: TextStyle(
-                    fontSize: 18.0,
-                    color: Colors.black,
+                child: Container(
+                  padding: const EdgeInsets.all(40.0),
+                  child: Column(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      Image.asset(
+                        'assets/splash/carm2_icon.png',
+                      ),
+                      Text(
+                        'CARM2 デモ',
+                        style: TextStyle(
+                          fontSize: 22.0,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                    ],
                   ),
                 ),
               ),
             ),
             Align(
+              alignment: Alignment.bottomRight,
+              child: Padding(
+                padding: const EdgeInsets.only(bottom: 4.0, right: 4.0),
+                child: Column(
+                  mainAxisSize: MainAxisSize.min,
+                  children: [
+                    const Text('テスト環境'),
+                    AppVersionWidget(),
+                  ],
+                ),
+              ),
+            ),
+            const Align(
               alignment: Alignment.bottomCenter,
               child: LinearProgressIndicator(),
             ),
