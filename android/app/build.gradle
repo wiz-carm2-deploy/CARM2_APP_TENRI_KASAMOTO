@@ -78,6 +78,10 @@ android {
 
     // UNITY ARプラグインに必要
     // ndkVersion "20.0.5594570"
+
+    packagingOptions {
+        pickFirst '**/*.so'
+    }
 }
 
 flutter {
