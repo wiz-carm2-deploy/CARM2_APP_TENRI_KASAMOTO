@@ -15,7 +15,26 @@
 		97C146FE1CF9000F007C117D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FD1CF9000F007C117D /* Assets.xcassets */; };
 		97C147011CF9000F007C117D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FF1CF9000F007C117D /* LaunchScreen.storyboard */; };
 		9869917D5A5D285A51C46C1C /* Pods_Runner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A6538506B174DB3DDB70CF2 /* Pods_Runner.framework */; };
+		A6403B3B276986660050B60B /* NatCorder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6403B3A276986660050B60B /* NatCorder.framework */; };
+		A6403B3C276986660050B60B /* NatCorder.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A6403B3A276986660050B60B /* NatCorder.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A6403B3E276986770050B60B /* UnityFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6403B3D276986770050B60B /* UnityFramework.framework */; };
+		A6403B3F276986770050B60B /* UnityFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A6403B3D276986770050B60B /* UnityFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A63EF98227672984000C6623 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A6403B3C276986660050B60B /* NatCorder.framework in Embed Frameworks */,
+				A6403B3F276986770050B60B /* UnityFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1498D2321E8E86230040F4C2 /* GeneratedPluginRegistrant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeneratedPluginRegistrant.h; sourceTree = "<group>"; };
@@ -36,6 +55,8 @@
 		97C146FD1CF9000F007C117D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97C147001CF9000F007C117D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		97C147021CF9000F007C117D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6403B3A276986660050B60B /* NatCorder.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NatCorder.framework; path = ".symlinks/plugins/ar_unity_plugin/ios/Frameworks/NatCorder.framework"; sourceTree = "<group>"; };
+		A6403B3D276986770050B60B /* UnityFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UnityFramework.framework; path = ".symlinks/plugins/ar_unity_plugin/ios/Frameworks/UnityFramework.framework"; sourceTree = "<group>"; };
 		FC456A5E282CBF886BC2E0D7 /* Pods-Runner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.debug.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -45,6 +66,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9869917D5A5D285A51C46C1C /* Pods_Runner.framework in Frameworks */,
+				A6403B3B276986660050B60B /* NatCorder.framework in Frameworks */,
+				A6403B3E276986770050B60B /* UnityFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,6 +124,8 @@
 		D413416523500D7C85C32B11 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A6403B3D276986770050B60B /* UnityFramework.framework */,
+				A6403B3A276986660050B60B /* NatCorder.framework */,
 				5A6538506B174DB3DDB70CF2 /* Pods_Runner.framework */,
 			);
 			name = Frameworks;
@@ -131,6 +156,7 @@
 				3B06AD1E1E4923F5004D2608 /* Thin Binary */,
 				50F4FC0057AB2C5935686BCD /* [CP] Embed Pods Frameworks */,
 				85B38FC3F32E39FF7E53786E /* [CP] Copy Pods Resources */,
+				A63EF98227672984000C6623 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);

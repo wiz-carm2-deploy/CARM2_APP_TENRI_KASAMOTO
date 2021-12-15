@@ -80,8 +80,8 @@ android {
        pickFirst '**/*.so'
    }
 
-    // UNITY ARプラグインに必要
-    ndkVersion "20.0.5594570"
+//    // UNITY ARプラグインに必要
+//    ndkVersion "20.0.5594570"
 }
 
 flutter {

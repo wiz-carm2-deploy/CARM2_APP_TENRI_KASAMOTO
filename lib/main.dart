@@ -9,12 +9,17 @@ void main() {
   runApp(Carm2Base(
     configuration: Carm2Configuration(
       appSettings: AppSettings(
-        appId: 3,
-        appName: 'CARM2 デモ',
-        backendBaseUrl:
-            'http://dev005.carm2-app.wiz-services.com/CARM2CMS/client/',
-        apiTimeoutDuration: const Duration(seconds: 30),
+        appName: '京ろまん',
+        // appId: 3,
+        // useDummyData: true,
+        // backendBaseUrl:
+        //     'https://api.carm2test.wiz-services.com/CARM2CMS/client/',
+
+        /// 京ろまん本番環境
+        appId: 1,
         useDummyData: false,
+        backendBaseUrl: 'https://carm2.carm.arnpc.com/CARM2CMS/client/',
+        apiTimeoutDuration: const Duration(seconds: 30),
         dummyAppDataPath: 'test_resources/kyoroman_app_data.json',
         drawerMenuIconLabel: 'メニュー',
       ),
