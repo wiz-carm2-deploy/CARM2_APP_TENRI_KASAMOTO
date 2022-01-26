@@ -36,7 +36,7 @@
 	<key>NSCalendarsUsageDescription</key>
 	<string>AR機能で使用します</string>
 	<key>NSCameraUsageDescription</key>
-	<string>AR機能でマーカーにかざすために使用します</string>
+	<string>撮影機能に使用します</string>
 	<key>NSContactsUsageDescription</key>
 	<string>AR機能で使用します</string>
 	<key>NSPhotoLibraryUsageDescription</key>
