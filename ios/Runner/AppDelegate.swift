@@ -16,6 +16,12 @@ import GoogleMaps
     // UNITY ARプラグインに必要
     // InitUnityIntegrationWithOptions(argc: CommandLine.argc, argv: CommandLine.unsafeArgv, launchOptions)
 
+    // アプリ起動してもバッジが消えない問題への対応
+    // いつのバージョンからか、Firebaseプラグイン側で、アプリ起動時にバッジを削除する処理が消えているっぽい
+    // ネットで調べてもこの方法以外なかったのでひとまず取り入れる
+    application.applicationIconBadgeNumber = 1;
+    application.applicationIconBadgeNumber = 0;
+
     GeneratedPluginRegistrant.register(with: self)
     return super.application(application, didFinishLaunchingWithOptions: launchOptions)
   }
