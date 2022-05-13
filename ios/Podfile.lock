@@ -1,4 +1,6 @@
 PODS:
+  - ar_unity_plugin (0.0.1):
+    - Flutter
   - arcore_flutter_plugin (0.0.1):
     - Flutter
   - arkit_plugin (0.0.1):
@@ -59,9 +61,18 @@ PODS:
     - Flutter
   - flutter_google_pay (0.0.1):
     - Flutter
+  - flutter_inappwebview (0.0.1):
+    - Flutter
+    - flutter_inappwebview/Core (= 0.0.1)
+    - OrderedSet (~> 5.0)
+  - flutter_inappwebview/Core (0.0.1):
+    - Flutter
+    - OrderedSet (~> 5.0)
   - flutter_keyboard_visibility (0.0.1):
     - Flutter
   - flutter_line_pay (0.0.1):
+    - Flutter
+  - flutter_unity_widget (4.0.0):
     - Flutter
   - FMDB (2.7.5):
     - FMDB/standard (= 2.7.5)
@@ -104,9 +115,10 @@ PODS:
     - nanopb/encode (= 2.30908.0)
   - nanopb/decode (2.30908.0)
   - nanopb/encode (2.30908.0)
+  - OrderedSet (5.0.0)
   - package_info (0.0.1):
     - Flutter
-  - path_provider (0.0.1):
+  - path_provider_ios (0.0.1):
     - Flutter
   - "permission_handler (5.1.0+2)":
     - Flutter
@@ -130,10 +142,9 @@ PODS:
     - Flutter
   - wakelock (0.0.1):
     - Flutter
-  - webview_flutter_wkwebview (0.0.1):
-    - Flutter
 
 DEPENDENCIES:
+  - ar_unity_plugin (from `.symlinks/plugins/ar_unity_plugin/ios`)
   - arcore_flutter_plugin (from `.symlinks/plugins/arcore_flutter_plugin/ios`)
   - arkit_plugin (from `.symlinks/plugins/arkit_plugin/ios`)
   - artoolkit_flutter_plugin (from `.symlinks/plugins/artoolkit_flutter_plugin/ios`)
@@ -146,13 +157,15 @@ DEPENDENCIES:
   - flutter_apple_pay (from `.symlinks/plugins/flutter_apple_pay/ios`)
   - flutter_exif_rotation (from `.symlinks/plugins/flutter_exif_rotation/ios`)
   - flutter_google_pay (from `.symlinks/plugins/flutter_google_pay/ios`)
+  - flutter_inappwebview (from `.symlinks/plugins/flutter_inappwebview/ios`)
   - flutter_keyboard_visibility (from `.symlinks/plugins/flutter_keyboard_visibility/ios`)
   - flutter_line_pay (from `.symlinks/plugins/flutter_line_pay/ios`)
+  - flutter_unity_widget (from `.symlinks/plugins/flutter_unity_widget/ios`)
   - google_maps_flutter (from `.symlinks/plugins/google_maps_flutter/ios`)
   - image_picker (from `.symlinks/plugins/image_picker/ios`)
   - location (from `.symlinks/plugins/location/ios`)
   - package_info (from `.symlinks/plugins/package_info/ios`)
-  - path_provider (from `.symlinks/plugins/path_provider/ios`)
+  - path_provider_ios (from `.symlinks/plugins/path_provider_ios/ios`)
   - permission_handler (from `.symlinks/plugins/permission_handler/ios`)
   - qrcode_flutter (from `.symlinks/plugins/qrcode_flutter/ios`)
   - share (from `.symlinks/plugins/share/ios`)
@@ -162,7 +175,6 @@ DEPENDENCIES:
   - url_launcher (from `.symlinks/plugins/url_launcher/ios`)
   - video_player (from `.symlinks/plugins/video_player/ios`)
   - wakelock (from `.symlinks/plugins/wakelock/ios`)
-  - webview_flutter_wkwebview (from `.symlinks/plugins/webview_flutter_wkwebview/ios`)
 
 SPEC REPOS:
   trunk:
@@ -176,10 +188,13 @@ SPEC REPOS:
     - GoogleMaps
     - GoogleUtilities
     - nanopb
+    - OrderedSet
     - PromisesObjC
     - Stripe
 
 EXTERNAL SOURCES:
+  ar_unity_plugin:
+    :path: ".symlinks/plugins/ar_unity_plugin/ios"
   arcore_flutter_plugin:
     :path: ".symlinks/plugins/arcore_flutter_plugin/ios"
   arkit_plugin:
@@ -205,10 +220,14 @@ EXTERNAL SOURCES:
     :path: ".symlinks/plugins/flutter_exif_rotation/ios"
   flutter_google_pay:
     :path: ".symlinks/plugins/flutter_google_pay/ios"
+  flutter_inappwebview:
+    :path: ".symlinks/plugins/flutter_inappwebview/ios"
   flutter_keyboard_visibility:
     :path: ".symlinks/plugins/flutter_keyboard_visibility/ios"
   flutter_line_pay:
     :path: ".symlinks/plugins/flutter_line_pay/ios"
+  flutter_unity_widget:
+    :path: ".symlinks/plugins/flutter_unity_widget/ios"
   google_maps_flutter:
     :path: ".symlinks/plugins/google_maps_flutter/ios"
   image_picker:
@@ -217,8 +236,8 @@ EXTERNAL SOURCES:
     :path: ".symlinks/plugins/location/ios"
   package_info:
     :path: ".symlinks/plugins/package_info/ios"
-  path_provider:
-    :path: ".symlinks/plugins/path_provider/ios"
+  path_provider_ios:
+    :path: ".symlinks/plugins/path_provider_ios/ios"
   permission_handler:
     :path: ".symlinks/plugins/permission_handler/ios"
   qrcode_flutter:
@@ -237,8 +256,6 @@ EXTERNAL SOURCES:
     :path: ".symlinks/plugins/video_player/ios"
   wakelock:
     :path: ".symlinks/plugins/wakelock/ios"
-  webview_flutter_wkwebview:
-    :path: ".symlinks/plugins/webview_flutter_wkwebview/ios"
 
 CHECKOUT OPTIONS:
   FirebaseFirestore:
@@ -246,6 +263,7 @@ CHECKOUT OPTIONS:
     :tag: 8.6.0
 
 SPEC CHECKSUMS:
+  ar_unity_plugin: bfaf6f893e8be1def85e384ce001dec4dc050678
   arcore_flutter_plugin: 59886964cab86408a05fd43442ca780a45ccdb87
   arkit_plugin: 7f6c4d31b56ab9172ac730947446aa543206233e
   artoolkit_flutter_plugin: 7bface15db794822eb833ffc4cc0ce9b922ce77c
@@ -263,8 +281,10 @@ SPEC CHECKSUMS:
   flutter_apple_pay: 4adb8f00a2d283dac207df63fa8ee1ae870aace5
   flutter_exif_rotation: 36dbe4d0bb56b9f8d2cc99e3ad24dbb38b674ea9
   flutter_google_pay: 27051ca15ef1ed02f9cf4d71231ba80cba1eb5fe
+  flutter_inappwebview: bfd58618f49dc62f2676de690fc6dcda1d6c3721
   flutter_keyboard_visibility: 0339d06371254c3eb25eeb90ba8d17dca8f9c069
   flutter_line_pay: 4993225453e462efade9ce6e8135232d92b5b26c
+  flutter_unity_widget: e509f3109933aa0c63b1bc149ca3d5b90fb68543
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
   google_maps_flutter: abdb8dee6c52d4be36ad131ee6ebfacd14417c5a
   GoogleDataTransport: 85fd18ff3019bb85d3f2c551d04c481dedf71fc9
@@ -273,8 +293,9 @@ SPEC CHECKSUMS:
   image_picker: 9aa50e1d8cdacdbed739e925b7eea16d014367e6
   location: 3a2eed4dd2fab25e7b7baf2a9efefe82b512d740
   nanopb: a0ba3315591a9ae0a16a309ee504766e90db0c96
+  OrderedSet: aaeb196f7fef5a9edf55d89760da9176ad40b93c
   package_info: 873975fc26034f0b863a300ad47e7f1ac6c7ec62
-  path_provider: d1e9807085df1f9cc9318206cd649dc0b76be3de
+  path_provider_ios: 7d7ce634493af4477d156294792024ec3485acd5
   permission_handler: ccb20a9fad0ee9b1314a52b70b76b473c5f8dab0
   PromisesObjC: 68159ce6952d93e17b2dfe273b8c40907db5ba58
   qrcode_flutter: de88a439c5eebe01b38b647af520e674770d4462
@@ -286,8 +307,7 @@ SPEC CHECKSUMS:
   url_launcher: b6e016d912f04be9f5bf6e8e82dc599b7ba59649
   video_player: ecd305f42e9044793efd34846e1ce64c31ea6fcb
   wakelock: d0fc7c864128eac40eba1617cb5264d9c940b46f
-  webview_flutter_wkwebview: 44aa025fbcf6730d808f1e0d86a5af5ac25fa8de
 
-PODFILE CHECKSUM: a827a79c11a7fa5697ef2151031dfb5dcc37c950
+PODFILE CHECKSUM: f2b3b43805af9f4827acf16212c9d8fe077519e3
 
 COCOAPODS: 1.10.1

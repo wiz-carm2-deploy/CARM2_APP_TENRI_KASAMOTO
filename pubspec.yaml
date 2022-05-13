@@ -36,10 +36,10 @@ dependencies:
 
   # CARM2 base plugin
   carm2_base:
-    # path: "../CARM2_APP/"
+#    path: "../CARM2_APP/"
     git:
       url: "https://github.com/wiz-develop/CARM2_APP.git"
-      ref: "feat/#1347/update-to-flutter-2.5.2"
+      ref: "feat/unity-2"
 
 # ARプラグインを外す対応
 # dependency_overrides:
@@ -93,7 +93,8 @@ flutter:
   # asset files
   assets:
    - assets/
-   - assets/splash/  
+   - assets/splash/
+   - test_resources/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

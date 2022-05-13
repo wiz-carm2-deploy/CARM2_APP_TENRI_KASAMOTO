@@ -1,8 +1,7 @@
 import UIKit
 import Flutter
 import GoogleMaps
-// UNITY ARプラグインに必要
-// import flutter_unity_widget
+import flutter_unity_widget
 
 @UIApplicationMain
 @objc class AppDelegate: FlutterAppDelegate {
@@ -12,9 +11,7 @@ import GoogleMaps
   ) -> Bool {
     // google map プラグインに必要
     GMSServices.provideAPIKey("AIzaSyCqnSHSA8FmovXP3KDtJ8YqgJ6O7vSRpx4")
-    
-    // UNITY ARプラグインに必要
-    // InitUnityIntegrationWithOptions(argc: CommandLine.argc, argv: CommandLine.unsafeArgv, launchOptions)
+    InitUnityIntegrationWithOptions(argc: CommandLine.argc, argv: CommandLine.unsafeArgv, launchOptions)
 
     // アプリ起動してもバッジが消えない問題への対応
     // いつのバージョンからか、Firebaseプラグイン側で、アプリ起動時にバッジを削除する処理が消えているっぽい
