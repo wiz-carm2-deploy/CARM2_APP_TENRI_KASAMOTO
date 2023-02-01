@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>666295893364-he0igrbi1g0kdubgtj8kuct18tjojed5.apps.googleusercontent.com</string>
+	<string>608575266780-gfr14tlh9ivv51tg74mc8b0talcbdtb5.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.666295893364-he0igrbi1g0kdubgtj8kuct18tjojed5</string>
+	<string>com.googleusercontent.apps.608575266780-gfr14tlh9ivv51tg74mc8b0talcbdtb5</string>
 	<key>API_KEY</key>
-	<string>AIzaSyBKhFTABQ2u5RcBSBVjvz7x3OgYP8T7Irg</string>
+	<string>AIzaSyC5IRiCmGgaXaF0AAO_H-TRGPy1LoXdfUU</string>
 	<key>GCM_SENDER_ID</key>
-	<string>666295893364</string>
+	<string>608575266780</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>jp.co.wiznet.carm2.app</string>
+	<string>com.tenrijihosha.kasamoto</string>
 	<key>PROJECT_ID</key>
-	<string>carm2-template</string>
+	<string>tenri-kasamoto</string>
 	<key>STORAGE_BUCKET</key>
-	<string>carm2-template.appspot.com</string>
+	<string>tenri-kasamoto.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -29,8 +29,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:666295893364:ios:5caa26fca54617e1134021</string>
-	<key>DATABASE_URL</key>
-	<string>https://carm2-template.firebaseio.com</string>
+	<string>1:608575266780:ios:bc8b234e4a517a441fb919</string>
 </dict>
 </plist>

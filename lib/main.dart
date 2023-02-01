@@ -9,10 +9,9 @@ void main() {
   runApp(Carm2Base(
     configuration: Carm2Configuration(
       appSettings: AppSettings(
-        appId: 3,
-        appName: 'CARM2 デモ',
-        backendBaseUrl:
-            'http://dev005.carm2-app.wiz-services.com/CARM2CMS/client/',
+        appId: 7,
+        appName: '笠本本ぶらサンデー',
+        backendBaseUrl: 'https://tnrjhs.com/CARM2CMS/client/',
         apiTimeoutDuration: const Duration(seconds: 30),
         useDummyData: false,
         dummyAppDataPath: 'test_resources/kyoroman_app_data.json',
@@ -87,7 +86,7 @@ class SplashScreen extends StatelessWidget {
                         'assets/splash/carm2_icon.png',
                       ),
                       Text(
-                        'CARM2 デモ',
+                        '笠本本ぶらサンデー',
                         style: TextStyle(
                           fontSize: 22.0,
                           fontWeight: FontWeight.bold,
@@ -105,7 +104,7 @@ class SplashScreen extends StatelessWidget {
                 child: Column(
                   mainAxisSize: MainAxisSize.min,
                   children: [
-                    const Text('テスト環境'),
+                    // const Text('テスト環境'),
                     AppVersionWidget(),
                   ],
                 ),

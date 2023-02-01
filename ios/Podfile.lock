@@ -7,6 +7,8 @@ PODS:
     - Flutter
   - artoolkit_flutter_plugin (0.0.1):
     - Flutter
+  - audiofileplayer (0.0.1):
+    - Flutter
   - audioplayers (0.0.1):
     - Flutter
   - device_info (0.0.1):
@@ -106,6 +108,8 @@ PODS:
     - GoogleUtilities/Logger
   - GoogleUtilities/UserDefaults (7.5.2):
     - GoogleUtilities/Logger
+  - image_composition (0.0.1):
+    - Flutter
   - image_picker (0.0.1):
     - Flutter
   - location (0.0.1):
@@ -129,13 +133,32 @@ PODS:
     - Flutter
   - shared_preferences (0.0.1):
     - Flutter
+  - sound_mode_plugin (0.0.1):
+    - Flutter
   - sqflite (0.0.2):
     - Flutter
     - FMDB (>= 2.7.5)
-  - Stripe (19.4.1)
-  - stripe_payment (1.0.0):
+  - Stripe (22.0.0):
+    - Stripe/Stripe3DS2 (= 22.0.0)
+    - StripeApplePay (= 22.0.0)
+    - StripeCore (= 22.0.0)
+    - StripeUICore (= 22.0.0)
+  - Stripe/Stripe3DS2 (22.0.0):
+    - StripeApplePay (= 22.0.0)
+    - StripeCore (= 22.0.0)
+    - StripeUICore (= 22.0.0)
+  - stripe_ios (0.0.1):
     - Flutter
-    - Stripe (~> 19.4.0)
+    - Stripe (~> 22.0.0)
+    - StripeConnections (~> 22.0.0)
+  - StripeApplePay (22.0.0):
+    - StripeCore (= 22.0.0)
+  - StripeConnections (22.0.0):
+    - StripeCore (= 22.0.0)
+    - StripeUICore (= 22.0.0)
+  - StripeCore (22.0.0)
+  - StripeUICore (22.0.0):
+    - StripeCore (= 22.0.0)
   - url_launcher (0.0.1):
     - Flutter
   - video_player (0.0.1):
@@ -148,6 +171,7 @@ DEPENDENCIES:
   - arcore_flutter_plugin (from `.symlinks/plugins/arcore_flutter_plugin/ios`)
   - arkit_plugin (from `.symlinks/plugins/arkit_plugin/ios`)
   - artoolkit_flutter_plugin (from `.symlinks/plugins/artoolkit_flutter_plugin/ios`)
+  - audiofileplayer (from `.symlinks/plugins/audiofileplayer/ios`)
   - audioplayers (from `.symlinks/plugins/audioplayers/ios`)
   - device_info (from `.symlinks/plugins/device_info/ios`)
   - firebase_core (from `.symlinks/plugins/firebase_core/ios`)
@@ -162,6 +186,7 @@ DEPENDENCIES:
   - flutter_line_pay (from `.symlinks/plugins/flutter_line_pay/ios`)
   - flutter_unity_widget (from `.symlinks/plugins/flutter_unity_widget/ios`)
   - google_maps_flutter (from `.symlinks/plugins/google_maps_flutter/ios`)
+  - image_composition (from `.symlinks/plugins/image_composition/ios`)
   - image_picker (from `.symlinks/plugins/image_picker/ios`)
   - location (from `.symlinks/plugins/location/ios`)
   - package_info (from `.symlinks/plugins/package_info/ios`)
@@ -170,8 +195,9 @@ DEPENDENCIES:
   - qrcode_flutter (from `.symlinks/plugins/qrcode_flutter/ios`)
   - share (from `.symlinks/plugins/share/ios`)
   - shared_preferences (from `.symlinks/plugins/shared_preferences/ios`)
+  - sound_mode_plugin (from `.symlinks/plugins/sound_mode_plugin/ios`)
   - sqflite (from `.symlinks/plugins/sqflite/ios`)
-  - stripe_payment (from `.symlinks/plugins/stripe_payment/ios`)
+  - stripe_ios (from `.symlinks/plugins/stripe_ios/ios`)
   - url_launcher (from `.symlinks/plugins/url_launcher/ios`)
   - video_player (from `.symlinks/plugins/video_player/ios`)
   - wakelock (from `.symlinks/plugins/wakelock/ios`)
@@ -191,6 +217,10 @@ SPEC REPOS:
     - OrderedSet
     - PromisesObjC
     - Stripe
+    - StripeApplePay
+    - StripeConnections
+    - StripeCore
+    - StripeUICore
 
 EXTERNAL SOURCES:
   ar_unity_plugin:
@@ -201,6 +231,8 @@ EXTERNAL SOURCES:
     :path: ".symlinks/plugins/arkit_plugin/ios"
   artoolkit_flutter_plugin:
     :path: ".symlinks/plugins/artoolkit_flutter_plugin/ios"
+  audiofileplayer:
+    :path: ".symlinks/plugins/audiofileplayer/ios"
   audioplayers:
     :path: ".symlinks/plugins/audioplayers/ios"
   device_info:
@@ -230,6 +262,8 @@ EXTERNAL SOURCES:
     :path: ".symlinks/plugins/flutter_unity_widget/ios"
   google_maps_flutter:
     :path: ".symlinks/plugins/google_maps_flutter/ios"
+  image_composition:
+    :path: ".symlinks/plugins/image_composition/ios"
   image_picker:
     :path: ".symlinks/plugins/image_picker/ios"
   location:
@@ -246,10 +280,12 @@ EXTERNAL SOURCES:
     :path: ".symlinks/plugins/share/ios"
   shared_preferences:
     :path: ".symlinks/plugins/shared_preferences/ios"
+  sound_mode_plugin:
+    :path: ".symlinks/plugins/sound_mode_plugin/ios"
   sqflite:
     :path: ".symlinks/plugins/sqflite/ios"
-  stripe_payment:
-    :path: ".symlinks/plugins/stripe_payment/ios"
+  stripe_ios:
+    :path: ".symlinks/plugins/stripe_ios/ios"
   url_launcher:
     :path: ".symlinks/plugins/url_launcher/ios"
   video_player:
@@ -267,6 +303,7 @@ SPEC CHECKSUMS:
   arcore_flutter_plugin: 59886964cab86408a05fd43442ca780a45ccdb87
   arkit_plugin: 7f6c4d31b56ab9172ac730947446aa543206233e
   artoolkit_flutter_plugin: 7bface15db794822eb833ffc4cc0ce9b922ce77c
+  audiofileplayer: 4aaff759a721ec3a850a682e0d9ec554e5f9e86f
   audioplayers: 455322b54050b30ea4b1af7cd9e9d105f74efa8c
   device_info: d7d233b645a32c40dfdc212de5cf646ca482f175
   Firebase: bc9325d5ee2041524bac78a5213d0e530c651309
@@ -290,6 +327,7 @@ SPEC CHECKSUMS:
   GoogleDataTransport: 85fd18ff3019bb85d3f2c551d04c481dedf71fc9
   GoogleMaps: 086ae1dab659eaa7339bdb30fc88e2f44e7c597c
   GoogleUtilities: 8de2a97a17e15b6b98e38e8770e2d129a57c0040
+  image_composition: 26f0ff65bacc36b07d7e1192dcb3aa54603697e9
   image_picker: 9aa50e1d8cdacdbed739e925b7eea16d014367e6
   location: 3a2eed4dd2fab25e7b7baf2a9efefe82b512d740
   nanopb: a0ba3315591a9ae0a16a309ee504766e90db0c96
@@ -301,13 +339,18 @@ SPEC CHECKSUMS:
   qrcode_flutter: de88a439c5eebe01b38b647af520e674770d4462
   share: 0b2c3e82132f5888bccca3351c504d0003b3b410
   shared_preferences: 5033afbb22d372e15aff8ff766df9021b845f273
+  sound_mode_plugin: 3f1c251214d8d7bf22233454a165a7061ffaa9eb
   sqflite: 6d358c025f5b867b29ed92fc697fd34924e11904
-  Stripe: 5914399ac5878056b985d56b409cb4bb1e7fc7e8
-  stripe_payment: 1cbe9c339c21b5ecf01035e80eea351067c67c56
+  Stripe: ee32e594fa4dee4bdf2a8a3039f7fb07a21075dc
+  stripe_ios: 4ae5942d4f2f383c2be5c187e6e4e4f31e29c0a5
+  StripeApplePay: e09964f3e2c6b318e53a05c12f3cb7efc592484d
+  StripeConnections: d3068bf688679a51932abb94d956d8a73c213bd7
+  StripeCore: 689b9605ccb78e507f59ddc5e677615e0af16583
+  StripeUICore: f5fe5ad283e132b40077b5eb85b625ebf7de034a
   url_launcher: b6e016d912f04be9f5bf6e8e82dc599b7ba59649
   video_player: ecd305f42e9044793efd34846e1ce64c31ea6fcb
   wakelock: d0fc7c864128eac40eba1617cb5264d9c940b46f
 
-PODFILE CHECKSUM: f2b3b43805af9f4827acf16212c9d8fe077519e3
+PODFILE CHECKSUM: 391d35e8977a127622b7d9bd798fc34648f1c71f
 
-COCOAPODS: 1.10.1
+COCOAPODS: 1.11.3
